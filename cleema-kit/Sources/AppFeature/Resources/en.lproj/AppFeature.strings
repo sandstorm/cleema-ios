@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Markus Müller on 25.10.22.
+  
+*/
+"Home" = "Home";
+
+"News" = "Magazine";
+
+"Projects" = "Projects";
+
+"Challenges" = "Challenges";
+
+"Market" = "Market";
+
+"box.new-friend.title" = "Congratulations";
+
+"box.new-friend.message" = "%@ and you are now friends!";
+
+"box.invite.title" = "Invite Friends";
+
+"box.invite.message" = "Share the link and invite your friends to cleema.";
+
+"box.invite.action" = "Share Link";
+
+"box.new-trophy.title" = "New Trophy";
+
+"box.new-trophy.action" = "Super, thanks!";
+
+"alert.sponsor.localUser.title" = "Could not become sponsor";
+
+"alert.sponsor.localUser.message" = "Local users could not become sponsors. Go to profile to convert your account to a cleema account.";
+
+"alert.sponsor.localUser.button" = "Go to profile";

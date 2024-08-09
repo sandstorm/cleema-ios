@@ -1,0 +1,13 @@
+"answering.title" = "Quiz";
+
+"answer.result.title.label" = "Super, du hast die heutige Frage schon beantwortet.";
+
+"answer.result.message.label" = "Schau gern morgen wieder vorbei.";
+
+"answer.button.action.label" = "Lösen";
+
+"streak.summary" = "Dein aktueller Streak beträgt *%d* Tage in folge.";
+
+"answer.result.correct.label" = "Richtig!";
+
+"answer.result.wrong.label" = "Falsch!";

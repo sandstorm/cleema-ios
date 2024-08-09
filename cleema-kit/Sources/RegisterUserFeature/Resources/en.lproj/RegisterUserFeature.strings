@@ -1,0 +1,21 @@
+"form.success.label" = "Success!";
+
+"form.textfield.name.label" = "Your Name";
+
+"form.textfield.email.label" = "Your e-mail address";
+
+"form.textfield.password.label" = "Your Password";
+
+"form.textfield.password-confirm.label" = "Confirm Password";
+
+"form.toggle.allow-surveys.label" = "I want to take part in surveys";
+
+"form.action.submit.label" = "Start Now";
+
+"link.privacy.label" = "Privacy Policy";
+
+"link.privacy.url" = "https://cleema.app/app/datenschutz/";
+
+"link.legal-notice.label" = "Imprint";
+
+"link.legal-notice.url" = "https://cleema.app/impressum/";

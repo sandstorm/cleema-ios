@@ -1,0 +1,2444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282042C728AA539300D896F4 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282042C628AA539300D896F4 /* UserDefaults+Extensions.swift */; };
+		2858570D2935A6440092C4A8 /* MainFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 2858570C2935A6440092C4A8 /* MainFeature */; };
+		28A804602896634800C6F7D5 /* AppFeature+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A8045F2896634800C6F7D5 /* AppFeature+Extensions.swift */; };
+		28D139392895ADEE007F9D0E /* Styling in Frameworks */ = {isa = PBXBuildFile; productRef = 28D139382895ADEE007F9D0E /* Styling */; };
+		28DDB9612902AFAC00C405C6 /* UserClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DDB9602902AFAC00C405C6 /* UserClient+Extensions.swift */; };
+		28DDB9632902C32600C405C6 /* NewsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 28DDB9622902C32600C405C6 /* NewsClientLive */; };
+		28DDB9652902C32600C405C6 /* RegionsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 28DDB9642902C32600C405C6 /* RegionsClientLive */; };
+		28DDB9672902C32600C405C6 /* UserClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 28DDB9662902C32600C405C6 /* UserClientLive */; };
+		28DDB9692902E54D00C405C6 /* ChallengesClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DDB9682902E54D00C405C6 /* ChallengesClient+Extensions.swift */; };
+		28DDB96B2902E58200C405C6 /* ChallengesClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 28DDB96A2902E58200C405C6 /* ChallengesClientLive */; };
+		28E6B85B29001D3F009F9279 /* RegionsClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6B85A29001D3F009F9279 /* RegionsClient+Extensions.swift */; };
+		28E6B85D29001D4D009F9279 /* NewsClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6B85C29001D4D009F9279 /* NewsClient+Extensions.swift */; };
+		28E6B86129001DE6009F9279 /* APIClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6B86029001DE6009F9279 /* APIClient+Extensions.swift */; };
+		28E6B86529001FAB009F9279 /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 28E6B86429001FAB009F9279 /* APIClient */; };
+		6400A3ED2BC70C8D004F361A /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 6400A3EC2BC70C8D004F361A /* .env */; };
+		6400A3EE2BC70C8D004F361A /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 6400A3EC2BC70C8D004F361A /* .env */; };
+		6400A3F02BC70CD0004F361A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400A3EF2BC70CD0004F361A /* Environment.swift */; };
+		6400A3F12BC70CD0004F361A /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400A3EF2BC70CD0004F361A /* Environment.swift */; };
+		646B86E22BFF586A00AC137D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F13B87912908253100E7F859 /* InfoPlist.strings */; };
+		646B86E42BFF592200AC137D /* Cleema.entitlements in Sources */ = {isa = PBXBuildFile; fileRef = F10D6E08292E8DE200603E26 /* Cleema.entitlements */; };
+		D05D86452C2C0CA100C8A9A0 /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86442C2C0CA100C8A9A0 /* APIClient */; };
+		D05D86472C2C0CA100C8A9A0 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86462C2C0CA100C8A9A0 /* AppFeature */; };
+		D05D86492C2C0CA100C8A9A0 /* AuthenticateUserFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86482C2C0CA100C8A9A0 /* AuthenticateUserFeature */; };
+		D05D864B2C2C0CA100C8A9A0 /* AvatarClient in Frameworks */ = {isa = PBXBuildFile; productRef = D05D864A2C2C0CA100C8A9A0 /* AvatarClient */; };
+		D05D864D2C2C0CA100C8A9A0 /* AvatarClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D864C2C2C0CA100C8A9A0 /* AvatarClientLive */; };
+		D05D864F2C2C0CA100C8A9A0 /* BecomePartner in Frameworks */ = {isa = PBXBuildFile; productRef = D05D864E2C2C0CA100C8A9A0 /* BecomePartner */; };
+		D05D86512C2C0CA100C8A9A0 /* BecomeSponsor in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86502C2C0CA100C8A9A0 /* BecomeSponsor */; };
+		D05D86532C2C0CA100C8A9A0 /* BecomeSponsorClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86522C2C0CA100C8A9A0 /* BecomeSponsorClientLive */; };
+		D05D86552C2C0CA100C8A9A0 /* ChallengeTemplateFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86542C2C0CA100C8A9A0 /* ChallengeTemplateFeature */; };
+		D05D86572C2C0CA100C8A9A0 /* ChallengesClient in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86562C2C0CA100C8A9A0 /* ChallengesClient */; };
+		D05D86592C2C0CA100C8A9A0 /* ChallengesClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86582C2C0CA100C8A9A0 /* ChallengesClientLive */; };
+		D05D865B2C2C0CA100C8A9A0 /* Components in Frameworks */ = {isa = PBXBuildFile; productRef = D05D865A2C2C0CA100C8A9A0 /* Components */; };
+		D05D865D2C2C0CA100C8A9A0 /* CreateUserFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D865C2C2C0CA100C8A9A0 /* CreateUserFeature */; };
+		D05D865F2C2C0CA100C8A9A0 /* DashboardFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D865E2C2C0CA100C8A9A0 /* DashboardFeature */; };
+		D05D86612C2C0CA100C8A9A0 /* DebuggingOverrides in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86602C2C0CA100C8A9A0 /* DebuggingOverrides */; };
+		D05D86632C2C0CA100C8A9A0 /* DeepLinking in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86622C2C0CA100C8A9A0 /* DeepLinking */; };
+		D05D86652C2C0CA100C8A9A0 /* DeepLinkingClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86642C2C0CA100C8A9A0 /* DeepLinkingClientLive */; };
+		D05D86672C2C0CA100C8A9A0 /* EditChallengeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86662C2C0CA100C8A9A0 /* EditChallengeFeature */; };
+		D05D86692C2C0CA100C8A9A0 /* Fakes in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86682C2C0CA100C8A9A0 /* Fakes */; };
+		D05D866B2C2C0CA100C8A9A0 /* InfoClient in Frameworks */ = {isa = PBXBuildFile; productRef = D05D866A2C2C0CA100C8A9A0 /* InfoClient */; };
+		D05D866D2C2C0CA100C8A9A0 /* InfoClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D866C2C2C0CA100C8A9A0 /* InfoClientLive */; };
+		D05D866F2C2C0CA100C8A9A0 /* InfoFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D866E2C2C0CA100C8A9A0 /* InfoFeature */; };
+		D05D86712C2C0CA100C8A9A0 /* InviteUsersToChallengeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86702C2C0CA100C8A9A0 /* InviteUsersToChallengeFeature */; };
+		D05D86732C2C0CA100C8A9A0 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86722C2C0CA100C8A9A0 /* Logging */; };
+		D05D86752C2C0CA100C8A9A0 /* LoginFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86742C2C0CA100C8A9A0 /* LoginFeature */; };
+		D05D86772C2C0CA100C8A9A0 /* MainFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86762C2C0CA100C8A9A0 /* MainFeature */; };
+		D05D86792C2C0CA100C8A9A0 /* MarketplaceClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86782C2C0CA100C8A9A0 /* MarketplaceClientLive */; };
+		D05D867B2C2C0CA100C8A9A0 /* MarketplaceFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D867A2C2C0CA100C8A9A0 /* MarketplaceFeature */; };
+		D05D867D2C2C0CA100C8A9A0 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = D05D867C2C2C0CA100C8A9A0 /* Models */; };
+		D05D867F2C2C0CA100C8A9A0 /* NewUserFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D867E2C2C0CA100C8A9A0 /* NewUserFeature */; };
+		D05D86812C2C0CA100C8A9A0 /* NewsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86802C2C0CA100C8A9A0 /* NewsClientLive */; };
+		D05D86832C2C0CA100C8A9A0 /* NewsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86822C2C0CA100C8A9A0 /* NewsFeature */; };
+		D05D86852C2C0CA100C8A9A0 /* OfferRedemptionFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86842C2C0CA100C8A9A0 /* OfferRedemptionFeature */; };
+		D05D86872C2C0CA100C8A9A0 /* PartnerChallengesFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86862C2C0CA100C8A9A0 /* PartnerChallengesFeature */; };
+		D05D86892C2C0CA100C8A9A0 /* ProfileEditFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86882C2C0CA100C8A9A0 /* ProfileEditFeature */; };
+		D05D868B2C2C0CA100C8A9A0 /* ProfileFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D868A2C2C0CA100C8A9A0 /* ProfileFeature */; };
+		D05D868D2C2C0CA100C8A9A0 /* ProjectDetailFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D868C2C2C0CA100C8A9A0 /* ProjectDetailFeature */; };
+		D05D868F2C2C0CA100C8A9A0 /* ProjectFundingFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D868E2C2C0CA100C8A9A0 /* ProjectFundingFeature */; };
+		D05D86912C2C0CA100C8A9A0 /* ProjectsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86902C2C0CA100C8A9A0 /* ProjectsClientLive */; };
+		D05D86932C2C0CA100C8A9A0 /* ProjectsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86922C2C0CA100C8A9A0 /* ProjectsFeature */; };
+		D05D86952C2C0CA100C8A9A0 /* QuizClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86942C2C0CA100C8A9A0 /* QuizClientLive */; };
+		D05D86972C2C0CA100C8A9A0 /* QuizFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86962C2C0CA100C8A9A0 /* QuizFeature */; };
+		D05D86992C2C0CA100C8A9A0 /* RegionsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86982C2C0CA100C8A9A0 /* RegionsClientLive */; };
+		D05D869B2C2C0CA100C8A9A0 /* RegisterUserFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D869A2C2C0CA100C8A9A0 /* RegisterUserFeature */; };
+		D05D869D2C2C0CA100C8A9A0 /* SelectAvatarFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D869C2C2C0CA100C8A9A0 /* SelectAvatarFeature */; };
+		D05D869F2C2C0CA100C8A9A0 /* SelectRegionFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D869E2C2C0CA100C8A9A0 /* SelectRegionFeature */; };
+		D05D86A12C2C0CA100C8A9A0 /* Styling in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86A02C2C0CA100C8A9A0 /* Styling */; };
+		D05D86A32C2C0CA100C8A9A0 /* SurveysClient in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86A22C2C0CA100C8A9A0 /* SurveysClient */; };
+		D05D86A52C2C0CA100C8A9A0 /* SurveysClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86A42C2C0CA100C8A9A0 /* SurveysClientLive */; };
+		D05D86A72C2C0CA100C8A9A0 /* SurveysFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86A62C2C0CA100C8A9A0 /* SurveysFeature */; };
+		D05D86A92C2C0CA100C8A9A0 /* TrophiesFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86A82C2C0CA100C8A9A0 /* TrophiesFeature */; };
+		D05D86AB2C2C0CA100C8A9A0 /* TrophyClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86AA2C2C0CA100C8A9A0 /* TrophyClientLive */; };
+		D05D86AD2C2C0CA100C8A9A0 /* UserChallengeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86AC2C2C0CA100C8A9A0 /* UserChallengeFeature */; };
+		D05D86AF2C2C0CA100C8A9A0 /* UserClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86AE2C2C0CA100C8A9A0 /* UserClientLive */; };
+		D05D86B12C2C0CA100C8A9A0 /* UserFavoritesFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86B02C2C0CA100C8A9A0 /* UserFavoritesFeature */; };
+		D05D86B32C2C0CA100C8A9A0 /* UserListFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86B22C2C0CA100C8A9A0 /* UserListFeature */; };
+		D05D86B52C2C0CA100C8A9A0 /* UserProgressesFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D05D86B42C2C0CA100C8A9A0 /* UserProgressesFeature */; };
+		D0C1F74D2C2032A900888A1E /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F74C2C2032A900888A1E /* APIClient */; };
+		D0C1F74F2C2032A900888A1E /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F74E2C2032A900888A1E /* AppFeature */; };
+		D0C1F7512C2032A900888A1E /* AuthenticateUserFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7502C2032A900888A1E /* AuthenticateUserFeature */; };
+		D0C1F7532C2032A900888A1E /* AvatarClient in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7522C2032A900888A1E /* AvatarClient */; };
+		D0C1F7552C2032A900888A1E /* AvatarClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7542C2032A900888A1E /* AvatarClientLive */; };
+		D0C1F7572C2032A900888A1E /* BecomePartner in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7562C2032A900888A1E /* BecomePartner */; };
+		D0C1F7592C2032A900888A1E /* BecomeSponsor in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7582C2032A900888A1E /* BecomeSponsor */; };
+		D0C1F75B2C2032A900888A1E /* BecomeSponsorClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F75A2C2032A900888A1E /* BecomeSponsorClientLive */; };
+		D0C1F75D2C2032A900888A1E /* ChallengeTemplateFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F75C2C2032A900888A1E /* ChallengeTemplateFeature */; };
+		D0C1F75F2C2032A900888A1E /* ChallengesClient in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F75E2C2032A900888A1E /* ChallengesClient */; };
+		D0C1F7612C2032A900888A1E /* ChallengesClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7602C2032A900888A1E /* ChallengesClientLive */; };
+		D0C1F7632C2032A900888A1E /* Components in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7622C2032A900888A1E /* Components */; };
+		D0C1F7652C2032A900888A1E /* CreateUserFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7642C2032A900888A1E /* CreateUserFeature */; };
+		D0C1F7672C2032A900888A1E /* DashboardFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7662C2032A900888A1E /* DashboardFeature */; };
+		D0C1F7692C2032A900888A1E /* DebuggingOverrides in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7682C2032A900888A1E /* DebuggingOverrides */; };
+		D0C1F76B2C2032A900888A1E /* DeepLinking in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F76A2C2032A900888A1E /* DeepLinking */; };
+		D0C1F76D2C2032A900888A1E /* DeepLinkingClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F76C2C2032A900888A1E /* DeepLinkingClientLive */; };
+		D0C1F76F2C2032A900888A1E /* EditChallengeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F76E2C2032A900888A1E /* EditChallengeFeature */; };
+		D0C1F7712C2032A900888A1E /* Fakes in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7702C2032A900888A1E /* Fakes */; };
+		D0C1F7732C2032A900888A1E /* InfoClient in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7722C2032A900888A1E /* InfoClient */; };
+		D0C1F7752C2032A900888A1E /* InfoClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7742C2032A900888A1E /* InfoClientLive */; };
+		D0C1F7772C2032A900888A1E /* InfoFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7762C2032A900888A1E /* InfoFeature */; };
+		D0C1F7792C2032A900888A1E /* InviteUsersToChallengeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7782C2032A900888A1E /* InviteUsersToChallengeFeature */; };
+		D0C1F77B2C2032A900888A1E /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F77A2C2032A900888A1E /* Logging */; };
+		D0C1F77D2C2032A900888A1E /* LoginFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F77C2C2032A900888A1E /* LoginFeature */; };
+		D0C1F77F2C2032A900888A1E /* MainFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F77E2C2032A900888A1E /* MainFeature */; };
+		D0C1F7812C2032A900888A1E /* MarketplaceClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7802C2032A900888A1E /* MarketplaceClientLive */; };
+		D0C1F7832C2032A900888A1E /* MarketplaceFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7822C2032A900888A1E /* MarketplaceFeature */; };
+		D0C1F7852C2032A900888A1E /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7842C2032A900888A1E /* Models */; };
+		D0C1F7872C2032A900888A1E /* NewUserFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7862C2032A900888A1E /* NewUserFeature */; };
+		D0C1F7892C2032A900888A1E /* NewsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7882C2032A900888A1E /* NewsClientLive */; };
+		D0C1F78B2C2032A900888A1E /* NewsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F78A2C2032A900888A1E /* NewsFeature */; };
+		D0C1F78D2C2032A900888A1E /* OfferRedemptionFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F78C2C2032A900888A1E /* OfferRedemptionFeature */; };
+		D0C1F78F2C2032A900888A1E /* PartnerChallengesFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F78E2C2032A900888A1E /* PartnerChallengesFeature */; };
+		D0C1F7912C2032A900888A1E /* ProfileEditFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7902C2032A900888A1E /* ProfileEditFeature */; };
+		D0C1F7932C2032A900888A1E /* ProfileFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7922C2032A900888A1E /* ProfileFeature */; };
+		D0C1F7952C2032A900888A1E /* ProjectDetailFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7942C2032A900888A1E /* ProjectDetailFeature */; };
+		D0C1F7972C2032A900888A1E /* ProjectFundingFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7962C2032A900888A1E /* ProjectFundingFeature */; };
+		D0C1F7992C2032A900888A1E /* ProjectsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7982C2032A900888A1E /* ProjectsClientLive */; };
+		D0C1F79B2C2032A900888A1E /* ProjectsFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F79A2C2032A900888A1E /* ProjectsFeature */; };
+		D0C1F79D2C2032A900888A1E /* QuizClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F79C2C2032A900888A1E /* QuizClientLive */; };
+		D0C1F79F2C2032A900888A1E /* QuizFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F79E2C2032A900888A1E /* QuizFeature */; };
+		D0C1F7A12C2032A900888A1E /* RegionsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7A02C2032A900888A1E /* RegionsClientLive */; };
+		D0C1F7A32C2032A900888A1E /* RegisterUserFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7A22C2032A900888A1E /* RegisterUserFeature */; };
+		D0C1F7A52C2032A900888A1E /* SelectAvatarFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7A42C2032A900888A1E /* SelectAvatarFeature */; };
+		D0C1F7A72C2032A900888A1E /* SelectRegionFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7A62C2032A900888A1E /* SelectRegionFeature */; };
+		D0C1F7A92C2032A900888A1E /* Styling in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7A82C2032A900888A1E /* Styling */; };
+		D0C1F7AB2C2032A900888A1E /* SurveysClient in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7AA2C2032A900888A1E /* SurveysClient */; };
+		D0C1F7AD2C2032A900888A1E /* SurveysClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7AC2C2032A900888A1E /* SurveysClientLive */; };
+		D0C1F7AF2C2032A900888A1E /* SurveysFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7AE2C2032A900888A1E /* SurveysFeature */; };
+		D0C1F7B12C2032A900888A1E /* TrophiesFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7B02C2032A900888A1E /* TrophiesFeature */; };
+		D0C1F7B32C2032A900888A1E /* TrophyClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7B22C2032A900888A1E /* TrophyClientLive */; };
+		D0C1F7B52C2032A900888A1E /* UserChallengeFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7B42C2032A900888A1E /* UserChallengeFeature */; };
+		D0C1F7B72C2032A900888A1E /* UserClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7B62C2032A900888A1E /* UserClientLive */; };
+		D0C1F7B92C2032A900888A1E /* UserFavoritesFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7B82C2032A900888A1E /* UserFavoritesFeature */; };
+		D0C1F7BB2C2032A900888A1E /* UserListFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7BA2C2032A900888A1E /* UserListFeature */; };
+		D0C1F7BD2C2032A900888A1E /* UserProgressesFeature in Frameworks */ = {isa = PBXBuildFile; productRef = D0C1F7BC2C2032A900888A1E /* UserProgressesFeature */; };
+		F1976CA8293159ED00EE6205 /* MarketplaceClient+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1976CA7293159ED00EE6205 /* MarketplaceClient+Extension.swift */; };
+		F1BCF46E292B948D00A3E3F9 /* QuizClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCF46D292B948D00A3E3F9 /* QuizClient+Extensions.swift */; };
+		F1BCF470292B9CF200A3E3F9 /* QuizClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = F1BCF46F292B9CF200A3E3F9 /* QuizClientLive */; };
+		F1CD962929315CAD0034B6A3 /* MarketplaceClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = F1CD962829315CAD0034B6A3 /* MarketplaceClientLive */; };
+		F44EC88A287C30F50024D1E4 /* CleemaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44EC889287C30F50024D1E4 /* CleemaApp.swift */; };
+		F44EC88E287C30F70024D1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44EC88D287C30F70024D1E4 /* Assets.xcassets */; };
+		F44EC891287C30F70024D1E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44EC890287C30F70024D1E4 /* Preview Assets.xcassets */; };
+		F46A5EF32936459D00CD2BD2 /* TrophyClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A5EF22936459D00CD2BD2 /* TrophyClient+Extensions.swift */; };
+		F46A5EF5293645CB00CD2BD2 /* TrophyClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = F46A5EF4293645CB00CD2BD2 /* TrophyClientLive */; };
+		F46A5EF72939FB7F00CD2BD2 /* SurveyClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A5EF62939FB7F00CD2BD2 /* SurveyClient+Extensions.swift */; };
+		F46A5EF92939FBAF00CD2BD2 /* SurveysClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = F46A5EF82939FBAF00CD2BD2 /* SurveysClientLive */; };
+		F476F0AE290C02AF00A1527A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F476F0AD290C02AF00A1527A /* Launch Screen.storyboard */; };
+		F47E5D8D2979413A008C3593 /* BecomeSponsorClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = F47E5D8C2979413A008C3593 /* BecomeSponsorClientLive */; };
+		F47E5D8F2979414F008C3593 /* BecomeSponsorClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E5D8E2979414F008C3593 /* BecomeSponsorClient+Extensions.swift */; };
+		F4A1F621288179CB000473EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A1F620288179CB000473EC /* AppDelegate.swift */; };
+		F4A994D22949C76E0050CD67 /* AvatarClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A994D12949C76E0050CD67 /* AvatarClient+Extensions.swift */; };
+		F4A994D42949C8010050CD67 /* AvatarClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = F4A994D32949C8010050CD67 /* AvatarClientLive */; };
+		F4BF0DCC287EADF40027F93F /* KeepMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C51EC7287C68EB00BD06CF /* KeepMe.swift */; };
+		F4CE81372934F40B008A06FD /* DeepLinkingClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE81362934F40B008A06FD /* DeepLinkingClient+Extensions.swift */; };
+		F4CE81392934F478008A06FD /* DeepLinkingClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = F4CE81382934F478008A06FD /* DeepLinkingClientLive */; };
+		F4D71D74292CBFB200C97EA0 /* InfoClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D71D73292CBFB200C97EA0 /* InfoClient+Extensions.swift */; };
+		F4D71D76292CC04700C97EA0 /* InfoClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = F4D71D75292CC04700C97EA0 /* InfoClientLive */; };
+		F4FA03772907E5A7006FAF82 /* ProjectsClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = F4FA03762907E5A7006FAF82 /* ProjectsClientLive */; };
+		F4FA03792907E5D0006FAF82 /* ProjectsClient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA03782907E5D0006FAF82 /* ProjectsClient+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2884F63E287C6216008A3192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44EC87E287C30F50024D1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44EC885287C30F50024D1E4;
+			remoteInfo = Cleema;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282042C628AA539300D896F4 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		28367DE228F8210900B57E1F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
+		2884F62A287C5F4F008A3192 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		2884F62B287C5F4F008A3192 /* Gemfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Gemfile; sourceTree = SOURCE_ROOT; };
+		2884F62D287C5F4F008A3192 /* .ruby-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".ruby-version"; sourceTree = SOURCE_ROOT; };
+		2884F62E287C5F4F008A3192 /* Brewfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Brewfile; sourceTree = SOURCE_ROOT; };
+		2884F62F287C5F4F008A3192 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		2884F630287C5F4F008A3192 /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = SOURCE_ROOT; };
+		2884F631287C5F4F008A3192 /* .swiftformat-linting */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swiftformat-linting"; sourceTree = SOURCE_ROOT; };
+		2884F632287C5F4F008A3192 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = SOURCE_ROOT; };
+		2884F633287C5F79008A3192 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
+		2884F635287C61BA008A3192 /* cleema-kit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "cleema-kit"; sourceTree = "<group>"; };
+		2884F63A287C6216008A3192 /* CleemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleemaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2884F647287C6233008A3192 /* CleemaTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CleemaTests.xctestplan; sourceTree = "<group>"; };
+		2884F648287C6271008A3192 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2884F649287C6288008A3192 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		28A8045F2896634800C6F7D5 /* AppFeature+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppFeature+Extensions.swift"; sourceTree = "<group>"; };
+		28C51EC7287C68EB00BD06CF /* KeepMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepMe.swift; sourceTree = "<group>"; };
+		28DDB9602902AFAC00C405C6 /* UserClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserClient+Extensions.swift"; sourceTree = "<group>"; };
+		28DDB9682902E54D00C405C6 /* ChallengesClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChallengesClient+Extensions.swift"; sourceTree = "<group>"; };
+		28E6B85A29001D3F009F9279 /* RegionsClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegionsClient+Extensions.swift"; sourceTree = "<group>"; };
+		28E6B85C29001D4D009F9279 /* NewsClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewsClient+Extensions.swift"; sourceTree = "<group>"; };
+		28E6B86029001DE6009F9279 /* APIClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+Extensions.swift"; sourceTree = "<group>"; };
+		28F8E4272938E3BB009E80F1 /* .editorconfig */ = {isa = PBXFileReference; lastKnownFileType = text; path = .editorconfig; sourceTree = SOURCE_ROOT; };
+		6400A3EC2BC70C8D004F361A /* .env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
+		6400A3EF2BC70CD0004F361A /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		F10D6E08292E8DE200603E26 /* Cleema.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cleema.entitlements; sourceTree = "<group>"; };
+		F13B87902908253100E7F859 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F13B87922908253500E7F859 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1976CA7293159ED00EE6205 /* MarketplaceClient+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarketplaceClient+Extension.swift"; sourceTree = "<group>"; };
+		F1BCF46D292B948D00A3E3F9 /* QuizClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuizClient+Extensions.swift"; sourceTree = "<group>"; };
+		F44EC886287C30F50024D1E4 /* Cleema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44EC889287C30F50024D1E4 /* CleemaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleemaApp.swift; sourceTree = "<group>"; };
+		F44EC88D287C30F70024D1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44EC890287C30F70024D1E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F46A5EF22936459D00CD2BD2 /* TrophyClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrophyClient+Extensions.swift"; sourceTree = "<group>"; };
+		F46A5EF62939FB7F00CD2BD2 /* SurveyClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SurveyClient+Extensions.swift"; sourceTree = "<group>"; };
+		F476F0AD290C02AF00A1527A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F47E5D8E2979414F008C3593 /* BecomeSponsorClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BecomeSponsorClient+Extensions.swift"; sourceTree = "<group>"; };
+		F4A1F620288179CB000473EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4A1F62B28819431000473EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A994D12949C76E0050CD67 /* AvatarClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AvatarClient+Extensions.swift"; sourceTree = "<group>"; };
+		F4CE81362934F40B008A06FD /* DeepLinkingClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeepLinkingClient+Extensions.swift"; sourceTree = "<group>"; };
+		F4D71D73292CBFB200C97EA0 /* InfoClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InfoClient+Extensions.swift"; sourceTree = "<group>"; };
+		F4FA03782907E5D0006FAF82 /* ProjectsClient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProjectsClient+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2884F637287C6216008A3192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44EC883287C30F50024D1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05D86872C2C0CA100C8A9A0 /* PartnerChallengesFeature in Frameworks */,
+				D0C1F7B72C2032A900888A1E /* UserClientLive in Frameworks */,
+				D0C1F7A92C2032A900888A1E /* Styling in Frameworks */,
+				D05D864D2C2C0CA100C8A9A0 /* AvatarClientLive in Frameworks */,
+				D05D864F2C2C0CA100C8A9A0 /* BecomePartner in Frameworks */,
+				D05D86652C2C0CA100C8A9A0 /* DeepLinkingClientLive in Frameworks */,
+				D0C1F7572C2032A900888A1E /* BecomePartner in Frameworks */,
+				D05D867D2C2C0CA100C8A9A0 /* Models in Frameworks */,
+				D05D86952C2C0CA100C8A9A0 /* QuizClientLive in Frameworks */,
+				D05D869B2C2C0CA100C8A9A0 /* RegisterUserFeature in Frameworks */,
+				D05D86AD2C2C0CA100C8A9A0 /* UserChallengeFeature in Frameworks */,
+				D05D86972C2C0CA100C8A9A0 /* QuizFeature in Frameworks */,
+				D0C1F7A12C2032A900888A1E /* RegionsClientLive in Frameworks */,
+				D05D86752C2C0CA100C8A9A0 /* LoginFeature in Frameworks */,
+				D05D869F2C2C0CA100C8A9A0 /* SelectRegionFeature in Frameworks */,
+				D0C1F7892C2032A900888A1E /* NewsClientLive in Frameworks */,
+				D05D86A52C2C0CA100C8A9A0 /* SurveysClientLive in Frameworks */,
+				D0C1F76D2C2032A900888A1E /* DeepLinkingClientLive in Frameworks */,
+				D0C1F77F2C2032A900888A1E /* MainFeature in Frameworks */,
+				D0C1F78B2C2032A900888A1E /* NewsFeature in Frameworks */,
+				D0C1F7912C2032A900888A1E /* ProfileEditFeature in Frameworks */,
+				D0C1F7832C2032A900888A1E /* MarketplaceFeature in Frameworks */,
+				D05D864B2C2C0CA100C8A9A0 /* AvatarClient in Frameworks */,
+				D05D865F2C2C0CA100C8A9A0 /* DashboardFeature in Frameworks */,
+				D0C1F7AF2C2032A900888A1E /* SurveysFeature in Frameworks */,
+				D05D86772C2C0CA100C8A9A0 /* MainFeature in Frameworks */,
+				D0C1F7AD2C2032A900888A1E /* SurveysClientLive in Frameworks */,
+				D05D86572C2C0CA100C8A9A0 /* ChallengesClient in Frameworks */,
+				D05D86612C2C0CA100C8A9A0 /* DebuggingOverrides in Frameworks */,
+				F1BCF470292B9CF200A3E3F9 /* QuizClientLive in Frameworks */,
+				D05D86672C2C0CA100C8A9A0 /* EditChallengeFeature in Frameworks */,
+				D05D86A72C2C0CA100C8A9A0 /* SurveysFeature in Frameworks */,
+				D05D868F2C2C0CA100C8A9A0 /* ProjectFundingFeature in Frameworks */,
+				D0C1F79D2C2032A900888A1E /* QuizClientLive in Frameworks */,
+				28DDB9672902C32600C405C6 /* UserClientLive in Frameworks */,
+				D0C1F7512C2032A900888A1E /* AuthenticateUserFeature in Frameworks */,
+				D05D86A12C2C0CA100C8A9A0 /* Styling in Frameworks */,
+				D0C1F7772C2032A900888A1E /* InfoFeature in Frameworks */,
+				D0C1F7672C2032A900888A1E /* DashboardFeature in Frameworks */,
+				D0C1F7632C2032A900888A1E /* Components in Frameworks */,
+				D05D86692C2C0CA100C8A9A0 /* Fakes in Frameworks */,
+				D0C1F7B92C2032A900888A1E /* UserFavoritesFeature in Frameworks */,
+				D0C1F7A52C2032A900888A1E /* SelectAvatarFeature in Frameworks */,
+				D05D86492C2C0CA100C8A9A0 /* AuthenticateUserFeature in Frameworks */,
+				D0C1F7B52C2032A900888A1E /* UserChallengeFeature in Frameworks */,
+				D0C1F7BB2C2032A900888A1E /* UserListFeature in Frameworks */,
+				28DDB96B2902E58200C405C6 /* ChallengesClientLive in Frameworks */,
+				D05D86832C2C0CA100C8A9A0 /* NewsFeature in Frameworks */,
+				D05D86512C2C0CA100C8A9A0 /* BecomeSponsor in Frameworks */,
+				D0C1F75D2C2032A900888A1E /* ChallengeTemplateFeature in Frameworks */,
+				D05D86B12C2C0CA100C8A9A0 /* UserFavoritesFeature in Frameworks */,
+				D0C1F78D2C2032A900888A1E /* OfferRedemptionFeature in Frameworks */,
+				F1CD962929315CAD0034B6A3 /* MarketplaceClientLive in Frameworks */,
+				F46A5EF92939FBAF00CD2BD2 /* SurveysClientLive in Frameworks */,
+				F47E5D8D2979413A008C3593 /* BecomeSponsorClientLive in Frameworks */,
+				D0C1F7932C2032A900888A1E /* ProfileFeature in Frameworks */,
+				F4CE81392934F478008A06FD /* DeepLinkingClientLive in Frameworks */,
+				D0C1F77B2C2032A900888A1E /* Logging in Frameworks */,
+				D05D866F2C2C0CA100C8A9A0 /* InfoFeature in Frameworks */,
+				D0C1F7A72C2032A900888A1E /* SelectRegionFeature in Frameworks */,
+				D05D868D2C2C0CA100C8A9A0 /* ProjectDetailFeature in Frameworks */,
+				D0C1F7BD2C2032A900888A1E /* UserProgressesFeature in Frameworks */,
+				D05D869D2C2C0CA100C8A9A0 /* SelectAvatarFeature in Frameworks */,
+				D0C1F78F2C2032A900888A1E /* PartnerChallengesFeature in Frameworks */,
+				D0C1F7872C2032A900888A1E /* NewUserFeature in Frameworks */,
+				D05D86712C2C0CA100C8A9A0 /* InviteUsersToChallengeFeature in Frameworks */,
+				D0C1F76F2C2032A900888A1E /* EditChallengeFeature in Frameworks */,
+				D05D867B2C2C0CA100C8A9A0 /* MarketplaceFeature in Frameworks */,
+				D05D86852C2C0CA100C8A9A0 /* OfferRedemptionFeature in Frameworks */,
+				D05D86912C2C0CA100C8A9A0 /* ProjectsClientLive in Frameworks */,
+				D0C1F7A32C2032A900888A1E /* RegisterUserFeature in Frameworks */,
+				D0C1F7652C2032A900888A1E /* CreateUserFeature in Frameworks */,
+				D0C1F74F2C2032A900888A1E /* AppFeature in Frameworks */,
+				D05D867F2C2C0CA100C8A9A0 /* NewUserFeature in Frameworks */,
+				D05D86532C2C0CA100C8A9A0 /* BecomeSponsorClientLive in Frameworks */,
+				D0C1F75F2C2032A900888A1E /* ChallengesClient in Frameworks */,
+				D0C1F7732C2032A900888A1E /* InfoClient in Frameworks */,
+				D0C1F79B2C2032A900888A1E /* ProjectsFeature in Frameworks */,
+				D0C1F7592C2032A900888A1E /* BecomeSponsor in Frameworks */,
+				D0C1F7712C2032A900888A1E /* Fakes in Frameworks */,
+				D0C1F7972C2032A900888A1E /* ProjectFundingFeature in Frameworks */,
+				D05D865B2C2C0CA100C8A9A0 /* Components in Frameworks */,
+				2858570D2935A6440092C4A8 /* MainFeature in Frameworks */,
+				D0C1F7612C2032A900888A1E /* ChallengesClientLive in Frameworks */,
+				D05D86632C2C0CA100C8A9A0 /* DeepLinking in Frameworks */,
+				D05D86B32C2C0CA100C8A9A0 /* UserListFeature in Frameworks */,
+				D05D865D2C2C0CA100C8A9A0 /* CreateUserFeature in Frameworks */,
+				D0C1F7752C2032A900888A1E /* InfoClientLive in Frameworks */,
+				28D139392895ADEE007F9D0E /* Styling in Frameworks */,
+				D05D86792C2C0CA100C8A9A0 /* MarketplaceClientLive in Frameworks */,
+				D0C1F7B32C2032A900888A1E /* TrophyClientLive in Frameworks */,
+				D0C1F74D2C2032A900888A1E /* APIClient in Frameworks */,
+				D05D86992C2C0CA100C8A9A0 /* RegionsClientLive in Frameworks */,
+				D05D868B2C2C0CA100C8A9A0 /* ProfileFeature in Frameworks */,
+				D0C1F7952C2032A900888A1E /* ProjectDetailFeature in Frameworks */,
+				D0C1F7AB2C2032A900888A1E /* SurveysClient in Frameworks */,
+				28DDB9652902C32600C405C6 /* RegionsClientLive in Frameworks */,
+				D0C1F7852C2032A900888A1E /* Models in Frameworks */,
+				D0C1F76B2C2032A900888A1E /* DeepLinking in Frameworks */,
+				D0C1F77D2C2032A900888A1E /* LoginFeature in Frameworks */,
+				D05D86AF2C2C0CA100C8A9A0 /* UserClientLive in Frameworks */,
+				D0C1F7812C2032A900888A1E /* MarketplaceClientLive in Frameworks */,
+				D05D86732C2C0CA100C8A9A0 /* Logging in Frameworks */,
+				D05D86B52C2C0CA100C8A9A0 /* UserProgressesFeature in Frameworks */,
+				D0C1F7B12C2032A900888A1E /* TrophiesFeature in Frameworks */,
+				D05D86452C2C0CA100C8A9A0 /* APIClient in Frameworks */,
+				28DDB9632902C32600C405C6 /* NewsClientLive in Frameworks */,
+				D05D86892C2C0CA100C8A9A0 /* ProfileEditFeature in Frameworks */,
+				D05D86A32C2C0CA100C8A9A0 /* SurveysClient in Frameworks */,
+				D0C1F7992C2032A900888A1E /* ProjectsClientLive in Frameworks */,
+				D05D86A92C2C0CA100C8A9A0 /* TrophiesFeature in Frameworks */,
+				D05D86AB2C2C0CA100C8A9A0 /* TrophyClientLive in Frameworks */,
+				D0C1F7552C2032A900888A1E /* AvatarClientLive in Frameworks */,
+				D0C1F7532C2032A900888A1E /* AvatarClient in Frameworks */,
+				F46A5EF5293645CB00CD2BD2 /* TrophyClientLive in Frameworks */,
+				D05D86812C2C0CA100C8A9A0 /* NewsClientLive in Frameworks */,
+				D0C1F79F2C2032A900888A1E /* QuizFeature in Frameworks */,
+				D05D86472C2C0CA100C8A9A0 /* AppFeature in Frameworks */,
+				F4D71D76292CC04700C97EA0 /* InfoClientLive in Frameworks */,
+				D0C1F7792C2032A900888A1E /* InviteUsersToChallengeFeature in Frameworks */,
+				D05D86592C2C0CA100C8A9A0 /* ChallengesClientLive in Frameworks */,
+				D05D866B2C2C0CA100C8A9A0 /* InfoClient in Frameworks */,
+				D05D866D2C2C0CA100C8A9A0 /* InfoClientLive in Frameworks */,
+				F4FA03772907E5A7006FAF82 /* ProjectsClientLive in Frameworks */,
+				D0C1F75B2C2032A900888A1E /* BecomeSponsorClientLive in Frameworks */,
+				F4A994D42949C8010050CD67 /* AvatarClientLive in Frameworks */,
+				D05D86552C2C0CA100C8A9A0 /* ChallengeTemplateFeature in Frameworks */,
+				D0C1F7692C2032A900888A1E /* DebuggingOverrides in Frameworks */,
+				D05D86932C2C0CA100C8A9A0 /* ProjectsFeature in Frameworks */,
+				28E6B86529001FAB009F9279 /* APIClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2884F608287C4846008A3192 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				28F8E4272938E3BB009E80F1 /* .editorconfig */,
+				28367DE228F8210900B57E1F /* Package.swift */,
+				2884F62F287C5F4F008A3192 /* .gitignore */,
+				2884F62D287C5F4F008A3192 /* .ruby-version */,
+				2884F632287C5F4F008A3192 /* .swift-version */,
+				2884F630287C5F4F008A3192 /* .swiftformat */,
+				2884F631287C5F4F008A3192 /* .swiftformat-linting */,
+				2884F62A287C5F4F008A3192 /* .swiftlint.yml */,
+				2884F62E287C5F4F008A3192 /* Brewfile */,
+				2884F62B287C5F4F008A3192 /* Gemfile */,
+			);
+			name = Scripts;
+			path = Cleema;
+			sourceTree = "<group>";
+		};
+		2884F634287C61BA008A3192 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2884F635287C61BA008A3192 /* cleema-kit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		2884F63B287C6216008A3192 /* CleemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				28C51EC7287C68EB00BD06CF /* KeepMe.swift */,
+				2884F647287C6233008A3192 /* CleemaTests.xctestplan */,
+			);
+			path = CleemaTests;
+			sourceTree = "<group>";
+		};
+		2884F64A287C634B008A3192 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4A1F62B28819431000473EC /* Info.plist */,
+				F44EC88D287C30F70024D1E4 /* Assets.xcassets */,
+				F476F0AD290C02AF00A1527A /* Launch Screen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F44EC87D287C30F50024D1E4 = {
+			isa = PBXGroup;
+			children = (
+				6400A3EC2BC70C8D004F361A /* .env */,
+				2884F649287C6288008A3192 /* CHANGELOG.md */,
+				2884F648287C6271008A3192 /* README.md */,
+				2884F634287C61BA008A3192 /* Packages */,
+				2884F633287C5F79008A3192 /* fastlane */,
+				2884F608287C4846008A3192 /* Scripts */,
+				F44EC888287C30F50024D1E4 /* Cleema */,
+				2884F63B287C6216008A3192 /* CleemaTests */,
+				F44EC887287C30F50024D1E4 /* Products */,
+				F4BF0DC5287DAAB00027F93F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F44EC887287C30F50024D1E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44EC886287C30F50024D1E4 /* Cleema.app */,
+				2884F63A287C6216008A3192 /* CleemaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44EC888287C30F50024D1E4 /* Cleema */ = {
+			isa = PBXGroup;
+			children = (
+				F10D6E08292E8DE200603E26 /* Cleema.entitlements */,
+				F44EC889287C30F50024D1E4 /* CleemaApp.swift */,
+				F13B87912908253100E7F859 /* InfoPlist.strings */,
+				F49D97A3288007CF008478DB /* Boundaries */,
+				F44EC88F287C30F70024D1E4 /* Preview Content */,
+				2884F64A287C634B008A3192 /* Resources */,
+			);
+			path = Cleema;
+			sourceTree = "<group>";
+		};
+		F44EC88F287C30F70024D1E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F44EC890287C30F70024D1E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F49D97A3288007CF008478DB /* Boundaries */ = {
+			isa = PBXGroup;
+			children = (
+				F4A994D12949C76E0050CD67 /* AvatarClient+Extensions.swift */,
+				F46A5EF22936459D00CD2BD2 /* TrophyClient+Extensions.swift */,
+				28E6B86029001DE6009F9279 /* APIClient+Extensions.swift */,
+				F4A1F620288179CB000473EC /* AppDelegate.swift */,
+				28A8045F2896634800C6F7D5 /* AppFeature+Extensions.swift */,
+				28DDB9682902E54D00C405C6 /* ChallengesClient+Extensions.swift */,
+				F4D71D73292CBFB200C97EA0 /* InfoClient+Extensions.swift */,
+				28E6B85C29001D4D009F9279 /* NewsClient+Extensions.swift */,
+				F1976CA7293159ED00EE6205 /* MarketplaceClient+Extension.swift */,
+				F4FA03782907E5D0006FAF82 /* ProjectsClient+Extensions.swift */,
+				F1BCF46D292B948D00A3E3F9 /* QuizClient+Extensions.swift */,
+				28E6B85A29001D3F009F9279 /* RegionsClient+Extensions.swift */,
+				28DDB9602902AFAC00C405C6 /* UserClient+Extensions.swift */,
+				282042C628AA539300D896F4 /* UserDefaults+Extensions.swift */,
+				F4CE81362934F40B008A06FD /* DeepLinkingClient+Extensions.swift */,
+				F46A5EF62939FB7F00CD2BD2 /* SurveyClient+Extensions.swift */,
+				F47E5D8E2979414F008C3593 /* BecomeSponsorClient+Extensions.swift */,
+				6400A3EF2BC70CD0004F361A /* Environment.swift */,
+			);
+			path = Boundaries;
+			sourceTree = "<group>";
+		};
+		F4BF0DC5287DAAB00027F93F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2884F639287C6216008A3192 /* CleemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2884F640287C6217008A3192 /* Build configuration list for PBXNativeTarget "CleemaTests" */;
+			buildPhases = (
+				2884F636287C6216008A3192 /* Sources */,
+				2884F637287C6216008A3192 /* Frameworks */,
+				2884F638287C6216008A3192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2884F63F287C6216008A3192 /* PBXTargetDependency */,
+			);
+			name = CleemaTests;
+			productName = CleemaTests;
+			productReference = 2884F63A287C6216008A3192 /* CleemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44EC885287C30F50024D1E4 /* Cleema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44EC894287C30F70024D1E4 /* Build configuration list for PBXNativeTarget "Cleema" */;
+			buildPhases = (
+				F44EC882287C30F50024D1E4 /* Sources */,
+				F44EC883287C30F50024D1E4 /* Frameworks */,
+				F44EC884287C30F50024D1E4 /* Resources */,
+				2884F618287C5ADC008A3192 /* Set build number from git */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cleema;
+			packageProductDependencies = (
+				28D139382895ADEE007F9D0E /* Styling */,
+				28E6B86429001FAB009F9279 /* APIClient */,
+				28DDB9622902C32600C405C6 /* NewsClientLive */,
+				28DDB9642902C32600C405C6 /* RegionsClientLive */,
+				28DDB9662902C32600C405C6 /* UserClientLive */,
+				28DDB96A2902E58200C405C6 /* ChallengesClientLive */,
+				F4FA03762907E5A7006FAF82 /* ProjectsClientLive */,
+				F1BCF46F292B9CF200A3E3F9 /* QuizClientLive */,
+				F4D71D75292CC04700C97EA0 /* InfoClientLive */,
+				F1CD962829315CAD0034B6A3 /* MarketplaceClientLive */,
+				F4CE81382934F478008A06FD /* DeepLinkingClientLive */,
+				2858570C2935A6440092C4A8 /* MainFeature */,
+				F46A5EF4293645CB00CD2BD2 /* TrophyClientLive */,
+				F46A5EF82939FBAF00CD2BD2 /* SurveysClientLive */,
+				F4A994D32949C8010050CD67 /* AvatarClientLive */,
+				F47E5D8C2979413A008C3593 /* BecomeSponsorClientLive */,
+				D0C1F74C2C2032A900888A1E /* APIClient */,
+				D0C1F74E2C2032A900888A1E /* AppFeature */,
+				D0C1F7502C2032A900888A1E /* AuthenticateUserFeature */,
+				D0C1F7522C2032A900888A1E /* AvatarClient */,
+				D0C1F7542C2032A900888A1E /* AvatarClientLive */,
+				D0C1F7562C2032A900888A1E /* BecomePartner */,
+				D0C1F7582C2032A900888A1E /* BecomeSponsor */,
+				D0C1F75A2C2032A900888A1E /* BecomeSponsorClientLive */,
+				D0C1F75C2C2032A900888A1E /* ChallengeTemplateFeature */,
+				D0C1F75E2C2032A900888A1E /* ChallengesClient */,
+				D0C1F7602C2032A900888A1E /* ChallengesClientLive */,
+				D0C1F7622C2032A900888A1E /* Components */,
+				D0C1F7642C2032A900888A1E /* CreateUserFeature */,
+				D0C1F7662C2032A900888A1E /* DashboardFeature */,
+				D0C1F7682C2032A900888A1E /* DebuggingOverrides */,
+				D0C1F76A2C2032A900888A1E /* DeepLinking */,
+				D0C1F76C2C2032A900888A1E /* DeepLinkingClientLive */,
+				D0C1F76E2C2032A900888A1E /* EditChallengeFeature */,
+				D0C1F7702C2032A900888A1E /* Fakes */,
+				D0C1F7722C2032A900888A1E /* InfoClient */,
+				D0C1F7742C2032A900888A1E /* InfoClientLive */,
+				D0C1F7762C2032A900888A1E /* InfoFeature */,
+				D0C1F7782C2032A900888A1E /* InviteUsersToChallengeFeature */,
+				D0C1F77A2C2032A900888A1E /* Logging */,
+				D0C1F77C2C2032A900888A1E /* LoginFeature */,
+				D0C1F77E2C2032A900888A1E /* MainFeature */,
+				D0C1F7802C2032A900888A1E /* MarketplaceClientLive */,
+				D0C1F7822C2032A900888A1E /* MarketplaceFeature */,
+				D0C1F7842C2032A900888A1E /* Models */,
+				D0C1F7862C2032A900888A1E /* NewUserFeature */,
+				D0C1F7882C2032A900888A1E /* NewsClientLive */,
+				D0C1F78A2C2032A900888A1E /* NewsFeature */,
+				D0C1F78C2C2032A900888A1E /* OfferRedemptionFeature */,
+				D0C1F78E2C2032A900888A1E /* PartnerChallengesFeature */,
+				D0C1F7902C2032A900888A1E /* ProfileEditFeature */,
+				D0C1F7922C2032A900888A1E /* ProfileFeature */,
+				D0C1F7942C2032A900888A1E /* ProjectDetailFeature */,
+				D0C1F7962C2032A900888A1E /* ProjectFundingFeature */,
+				D0C1F7982C2032A900888A1E /* ProjectsClientLive */,
+				D0C1F79A2C2032A900888A1E /* ProjectsFeature */,
+				D0C1F79C2C2032A900888A1E /* QuizClientLive */,
+				D0C1F79E2C2032A900888A1E /* QuizFeature */,
+				D0C1F7A02C2032A900888A1E /* RegionsClientLive */,
+				D0C1F7A22C2032A900888A1E /* RegisterUserFeature */,
+				D0C1F7A42C2032A900888A1E /* SelectAvatarFeature */,
+				D0C1F7A62C2032A900888A1E /* SelectRegionFeature */,
+				D0C1F7A82C2032A900888A1E /* Styling */,
+				D0C1F7AA2C2032A900888A1E /* SurveysClient */,
+				D0C1F7AC2C2032A900888A1E /* SurveysClientLive */,
+				D0C1F7AE2C2032A900888A1E /* SurveysFeature */,
+				D0C1F7B02C2032A900888A1E /* TrophiesFeature */,
+				D0C1F7B22C2032A900888A1E /* TrophyClientLive */,
+				D0C1F7B42C2032A900888A1E /* UserChallengeFeature */,
+				D0C1F7B62C2032A900888A1E /* UserClientLive */,
+				D0C1F7B82C2032A900888A1E /* UserFavoritesFeature */,
+				D0C1F7BA2C2032A900888A1E /* UserListFeature */,
+				D0C1F7BC2C2032A900888A1E /* UserProgressesFeature */,
+				D05D86442C2C0CA100C8A9A0 /* APIClient */,
+				D05D86462C2C0CA100C8A9A0 /* AppFeature */,
+				D05D86482C2C0CA100C8A9A0 /* AuthenticateUserFeature */,
+				D05D864A2C2C0CA100C8A9A0 /* AvatarClient */,
+				D05D864C2C2C0CA100C8A9A0 /* AvatarClientLive */,
+				D05D864E2C2C0CA100C8A9A0 /* BecomePartner */,
+				D05D86502C2C0CA100C8A9A0 /* BecomeSponsor */,
+				D05D86522C2C0CA100C8A9A0 /* BecomeSponsorClientLive */,
+				D05D86542C2C0CA100C8A9A0 /* ChallengeTemplateFeature */,
+				D05D86562C2C0CA100C8A9A0 /* ChallengesClient */,
+				D05D86582C2C0CA100C8A9A0 /* ChallengesClientLive */,
+				D05D865A2C2C0CA100C8A9A0 /* Components */,
+				D05D865C2C2C0CA100C8A9A0 /* CreateUserFeature */,
+				D05D865E2C2C0CA100C8A9A0 /* DashboardFeature */,
+				D05D86602C2C0CA100C8A9A0 /* DebuggingOverrides */,
+				D05D86622C2C0CA100C8A9A0 /* DeepLinking */,
+				D05D86642C2C0CA100C8A9A0 /* DeepLinkingClientLive */,
+				D05D86662C2C0CA100C8A9A0 /* EditChallengeFeature */,
+				D05D86682C2C0CA100C8A9A0 /* Fakes */,
+				D05D866A2C2C0CA100C8A9A0 /* InfoClient */,
+				D05D866C2C2C0CA100C8A9A0 /* InfoClientLive */,
+				D05D866E2C2C0CA100C8A9A0 /* InfoFeature */,
+				D05D86702C2C0CA100C8A9A0 /* InviteUsersToChallengeFeature */,
+				D05D86722C2C0CA100C8A9A0 /* Logging */,
+				D05D86742C2C0CA100C8A9A0 /* LoginFeature */,
+				D05D86762C2C0CA100C8A9A0 /* MainFeature */,
+				D05D86782C2C0CA100C8A9A0 /* MarketplaceClientLive */,
+				D05D867A2C2C0CA100C8A9A0 /* MarketplaceFeature */,
+				D05D867C2C2C0CA100C8A9A0 /* Models */,
+				D05D867E2C2C0CA100C8A9A0 /* NewUserFeature */,
+				D05D86802C2C0CA100C8A9A0 /* NewsClientLive */,
+				D05D86822C2C0CA100C8A9A0 /* NewsFeature */,
+				D05D86842C2C0CA100C8A9A0 /* OfferRedemptionFeature */,
+				D05D86862C2C0CA100C8A9A0 /* PartnerChallengesFeature */,
+				D05D86882C2C0CA100C8A9A0 /* ProfileEditFeature */,
+				D05D868A2C2C0CA100C8A9A0 /* ProfileFeature */,
+				D05D868C2C2C0CA100C8A9A0 /* ProjectDetailFeature */,
+				D05D868E2C2C0CA100C8A9A0 /* ProjectFundingFeature */,
+				D05D86902C2C0CA100C8A9A0 /* ProjectsClientLive */,
+				D05D86922C2C0CA100C8A9A0 /* ProjectsFeature */,
+				D05D86942C2C0CA100C8A9A0 /* QuizClientLive */,
+				D05D86962C2C0CA100C8A9A0 /* QuizFeature */,
+				D05D86982C2C0CA100C8A9A0 /* RegionsClientLive */,
+				D05D869A2C2C0CA100C8A9A0 /* RegisterUserFeature */,
+				D05D869C2C2C0CA100C8A9A0 /* SelectAvatarFeature */,
+				D05D869E2C2C0CA100C8A9A0 /* SelectRegionFeature */,
+				D05D86A02C2C0CA100C8A9A0 /* Styling */,
+				D05D86A22C2C0CA100C8A9A0 /* SurveysClient */,
+				D05D86A42C2C0CA100C8A9A0 /* SurveysClientLive */,
+				D05D86A62C2C0CA100C8A9A0 /* SurveysFeature */,
+				D05D86A82C2C0CA100C8A9A0 /* TrophiesFeature */,
+				D05D86AA2C2C0CA100C8A9A0 /* TrophyClientLive */,
+				D05D86AC2C2C0CA100C8A9A0 /* UserChallengeFeature */,
+				D05D86AE2C2C0CA100C8A9A0 /* UserClientLive */,
+				D05D86B02C2C0CA100C8A9A0 /* UserFavoritesFeature */,
+				D05D86B22C2C0CA100C8A9A0 /* UserListFeature */,
+				D05D86B42C2C0CA100C8A9A0 /* UserProgressesFeature */,
+			);
+			productName = Cleema;
+			productReference = F44EC886287C30F50024D1E4 /* Cleema.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44EC87E287C30F50024D1E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2884F639287C6216008A3192 = {
+						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1340;
+						TestTargetID = F44EC885287C30F50024D1E4;
+					};
+					F44EC885287C30F50024D1E4 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = F44EC881287C30F50024D1E4 /* Build configuration list for PBXProject "Cleema" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = F44EC87D287C30F50024D1E4;
+			packageReferences = (
+				D0C1F74B2C2032A900888A1E /* XCLocalSwiftPackageReference "cleema-kit" */,
+			);
+			productRefGroup = F44EC887287C30F50024D1E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44EC885287C30F50024D1E4 /* Cleema */,
+				2884F639287C6216008A3192 /* CleemaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2884F638287C6216008A3192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6400A3EE2BC70C8D004F361A /* .env in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44EC884287C30F50024D1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6400A3ED2BC70C8D004F361A /* .env in Resources */,
+				F44EC891287C30F70024D1E4 /* Preview Assets.xcassets in Resources */,
+				F476F0AE290C02AF00A1527A /* Launch Screen.storyboard in Resources */,
+				F44EC88E287C30F70024D1E4 /* Assets.xcassets in Resources */,
+				646B86E22BFF586A00AC137D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2884F618287C5ADC008A3192 /* Set build number from git */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Set build number from git";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Set the build number to the current git commit count.\n# If we're using the Dev scheme, then we'll suffix the build\n# number with the current branch name, to make collisions\n# far less likely across feature branches.\n# Based on: http://w3facility.info/question/how-do-i-force-xcode-to-rebuild-the-info-plist-file-in-my-project-every-time-i-build-the-project/\n#\nplist=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\ngit=`sh /etc/profile; which git`\nappBuild=`\"$git\" rev-list --count HEAD`\n#gitHash=`\"$git\" rev-parse --short HEAD`\n#appVersion=`/usr/libexec/PlistBuddy -c \"Print :CFBundleShortVersionString\" \"$plist\"`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $appBuild\" \"$plist\"\n#/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $appVersion ($gitHash)\" \"$plist\"\n\necho \"Updated $plist build number to $appBuild\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2884F636287C6216008A3192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BF0DCC287EADF40027F93F /* KeepMe.swift in Sources */,
+				6400A3F12BC70CD0004F361A /* Environment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44EC882287C30F50024D1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646B86E42BFF592200AC137D /* Cleema.entitlements in Sources */,
+				28E6B85D29001D4D009F9279 /* NewsClient+Extensions.swift in Sources */,
+				F4FA03792907E5D0006FAF82 /* ProjectsClient+Extensions.swift in Sources */,
+				F47E5D8F2979414F008C3593 /* BecomeSponsorClient+Extensions.swift in Sources */,
+				28A804602896634800C6F7D5 /* AppFeature+Extensions.swift in Sources */,
+				F46A5EF32936459D00CD2BD2 /* TrophyClient+Extensions.swift in Sources */,
+				F1976CA8293159ED00EE6205 /* MarketplaceClient+Extension.swift in Sources */,
+				28E6B85B29001D3F009F9279 /* RegionsClient+Extensions.swift in Sources */,
+				282042C728AA539300D896F4 /* UserDefaults+Extensions.swift in Sources */,
+				F4CE81372934F40B008A06FD /* DeepLinkingClient+Extensions.swift in Sources */,
+				F4D71D74292CBFB200C97EA0 /* InfoClient+Extensions.swift in Sources */,
+				F4A1F621288179CB000473EC /* AppDelegate.swift in Sources */,
+				F44EC88A287C30F50024D1E4 /* CleemaApp.swift in Sources */,
+				28DDB9692902E54D00C405C6 /* ChallengesClient+Extensions.swift in Sources */,
+				F46A5EF72939FB7F00CD2BD2 /* SurveyClient+Extensions.swift in Sources */,
+				28E6B86129001DE6009F9279 /* APIClient+Extensions.swift in Sources */,
+				6400A3F02BC70CD0004F361A /* Environment.swift in Sources */,
+				F1BCF46E292B948D00A3E3F9 /* QuizClient+Extensions.swift in Sources */,
+				28DDB9612902AFAC00C405C6 /* UserClient+Extensions.swift in Sources */,
+				F4A994D22949C76E0050CD67 /* AvatarClient+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2884F63F287C6216008A3192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44EC885287C30F50024D1E4 /* Cleema */;
+			targetProxy = 2884F63E287C6216008A3192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F13B87912908253100E7F859 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13B87902908253100E7F859 /* en */,
+				F13B87922908253500E7F859 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2884F619287C5B0C008A3192 /* Debug-Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG STAGING";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-Staging";
+		};
+		2884F61A287C5B0C008A3192 /* Debug-Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_NAME = Cleema;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_WARNINGS = YES;
+				CODE_SIGN_ENTITLEMENTS = Cleema/Cleema.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cleema/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7DB5AJ9N7H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_WARNINGS = YES;
+				INFOPLIST_FILE = Cleema/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = de.cleema.Cleema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore de.cleema.Cleema";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug-Staging";
+		};
+		2884F61B287C5B2F008A3192 /* Debug-Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG PRODUCTION";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-Production";
+		};
+		2884F61C287C5B2F008A3192 /* Debug-Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_NAME = Cleema;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_WARNINGS = YES;
+				CODE_SIGN_ENTITLEMENTS = Cleema/Cleema.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cleema/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7DB5AJ9N7H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_WARNINGS = YES;
+				INFOPLIST_FILE = Cleema/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = de.cleema.Cleema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore de.cleema.Cleema";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug-Production";
+		};
+		2884F61D287C5B3F008A3192 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRODUCTION;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Production";
+		};
+		2884F61E287C5B3F008A3192 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_NAME = Cleema;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_WARNINGS = YES;
+				CODE_SIGN_ENTITLEMENTS = Cleema/Cleema.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cleema/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7DB5AJ9N7H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_WARNINGS = YES;
+				INFOPLIST_FILE = Cleema/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = de.cleema.Cleema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore de.cleema.Cleema";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Production";
+		};
+		2884F61F287C5B47008A3192 /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Staging";
+		};
+		2884F620287C5B47008A3192 /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_NAME = Cleema;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Versioned";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_WARNINGS = YES;
+				CODE_SIGN_ENTITLEMENTS = Cleema/Cleema.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cleema/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7DB5AJ9N7H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_WARNINGS = YES;
+				INFOPLIST_FILE = Cleema/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = de.cleema.Cleema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AppStore de.cleema.Cleema";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Staging";
+		};
+		2884F641287C6217008A3192 /* Debug-Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8AWC3WT8C3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kf-interactive.CleemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleema.app/Cleema";
+			};
+			name = "Debug-Development";
+		};
+		2884F642287C6217008A3192 /* Debug-Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8AWC3WT8C3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kf-interactive.CleemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleema.app/Cleema";
+			};
+			name = "Debug-Production";
+		};
+		2884F643287C6217008A3192 /* Debug-Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8AWC3WT8C3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kf-interactive.CleemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleema.app/Cleema";
+			};
+			name = "Debug-Staging";
+		};
+		2884F644287C6217008A3192 /* Release-Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8AWC3WT8C3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kf-interactive.CleemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleema.app/Cleema";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Development";
+		};
+		2884F645287C6217008A3192 /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8AWC3WT8C3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kf-interactive.CleemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleema.app/Cleema";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Staging";
+		};
+		2884F646287C6217008A3192 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8AWC3WT8C3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kf-interactive.CleemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleema.app/Cleema";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Production";
+		};
+		F44EC892287C30F70024D1E4 /* Debug-Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEVELOPMENT DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-Development";
+		};
+		F44EC893287C30F70024D1E4 /* Release-Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEVELOPMENT;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Development";
+		};
+		F44EC895287C30F70024D1E4 /* Debug-Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_NAME = "Cleema-Dev";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_WARNINGS = YES;
+				CODE_SIGN_ENTITLEMENTS = Cleema/Cleema.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cleema/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZRAJV4AQQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_WARNINGS = YES;
+				INFOPLIST_FILE = Cleema/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cleema.Cleema-development";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Debug-Development";
+		};
+		F44EC896287C30F70024D1E4 /* Release-Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_NAME = "Cleema-Dev";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_WARNINGS = YES;
+				CODE_SIGN_ENTITLEMENTS = Cleema/Cleema.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cleema/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZRAJV4AQQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_WARNINGS = YES;
+				INFOPLIST_FILE = Cleema/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cleema.Cleema-development";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Release-Development";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2884F640287C6217008A3192 /* Build configuration list for PBXNativeTarget "CleemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2884F641287C6217008A3192 /* Debug-Development */,
+				2884F642287C6217008A3192 /* Debug-Production */,
+				2884F643287C6217008A3192 /* Debug-Staging */,
+				2884F644287C6217008A3192 /* Release-Development */,
+				2884F645287C6217008A3192 /* Release-Staging */,
+				2884F646287C6217008A3192 /* Release-Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Staging";
+		};
+		F44EC881287C30F50024D1E4 /* Build configuration list for PBXProject "Cleema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44EC892287C30F70024D1E4 /* Debug-Development */,
+				2884F61B287C5B2F008A3192 /* Debug-Production */,
+				2884F619287C5B0C008A3192 /* Debug-Staging */,
+				F44EC893287C30F70024D1E4 /* Release-Development */,
+				2884F61F287C5B47008A3192 /* Release-Staging */,
+				2884F61D287C5B3F008A3192 /* Release-Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Staging";
+		};
+		F44EC894287C30F70024D1E4 /* Build configuration list for PBXNativeTarget "Cleema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44EC895287C30F70024D1E4 /* Debug-Development */,
+				2884F61C287C5B2F008A3192 /* Debug-Production */,
+				2884F61A287C5B0C008A3192 /* Debug-Staging */,
+				F44EC896287C30F70024D1E4 /* Release-Development */,
+				2884F620287C5B47008A3192 /* Release-Staging */,
+				2884F61E287C5B3F008A3192 /* Release-Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Staging";
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D0C1F74B2C2032A900888A1E /* XCLocalSwiftPackageReference "cleema-kit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "cleema-kit";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2858570C2935A6440092C4A8 /* MainFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MainFeature;
+		};
+		28D139382895ADEE007F9D0E /* Styling */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Styling;
+		};
+		28DDB9622902C32600C405C6 /* NewsClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewsClientLive;
+		};
+		28DDB9642902C32600C405C6 /* RegionsClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RegionsClientLive;
+		};
+		28DDB9662902C32600C405C6 /* UserClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserClientLive;
+		};
+		28DDB96A2902E58200C405C6 /* ChallengesClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChallengesClientLive;
+		};
+		28E6B86429001FAB009F9279 /* APIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = APIClient;
+		};
+		D05D86442C2C0CA100C8A9A0 /* APIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = APIClient;
+		};
+		D05D86462C2C0CA100C8A9A0 /* AppFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeature;
+		};
+		D05D86482C2C0CA100C8A9A0 /* AuthenticateUserFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuthenticateUserFeature;
+		};
+		D05D864A2C2C0CA100C8A9A0 /* AvatarClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AvatarClient;
+		};
+		D05D864C2C2C0CA100C8A9A0 /* AvatarClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AvatarClientLive;
+		};
+		D05D864E2C2C0CA100C8A9A0 /* BecomePartner */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BecomePartner;
+		};
+		D05D86502C2C0CA100C8A9A0 /* BecomeSponsor */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BecomeSponsor;
+		};
+		D05D86522C2C0CA100C8A9A0 /* BecomeSponsorClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BecomeSponsorClientLive;
+		};
+		D05D86542C2C0CA100C8A9A0 /* ChallengeTemplateFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChallengeTemplateFeature;
+		};
+		D05D86562C2C0CA100C8A9A0 /* ChallengesClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChallengesClient;
+		};
+		D05D86582C2C0CA100C8A9A0 /* ChallengesClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChallengesClientLive;
+		};
+		D05D865A2C2C0CA100C8A9A0 /* Components */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Components;
+		};
+		D05D865C2C2C0CA100C8A9A0 /* CreateUserFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CreateUserFeature;
+		};
+		D05D865E2C2C0CA100C8A9A0 /* DashboardFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DashboardFeature;
+		};
+		D05D86602C2C0CA100C8A9A0 /* DebuggingOverrides */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DebuggingOverrides;
+		};
+		D05D86622C2C0CA100C8A9A0 /* DeepLinking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DeepLinking;
+		};
+		D05D86642C2C0CA100C8A9A0 /* DeepLinkingClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DeepLinkingClientLive;
+		};
+		D05D86662C2C0CA100C8A9A0 /* EditChallengeFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EditChallengeFeature;
+		};
+		D05D86682C2C0CA100C8A9A0 /* Fakes */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Fakes;
+		};
+		D05D866A2C2C0CA100C8A9A0 /* InfoClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfoClient;
+		};
+		D05D866C2C2C0CA100C8A9A0 /* InfoClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfoClientLive;
+		};
+		D05D866E2C2C0CA100C8A9A0 /* InfoFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfoFeature;
+		};
+		D05D86702C2C0CA100C8A9A0 /* InviteUsersToChallengeFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InviteUsersToChallengeFeature;
+		};
+		D05D86722C2C0CA100C8A9A0 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Logging;
+		};
+		D05D86742C2C0CA100C8A9A0 /* LoginFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LoginFeature;
+		};
+		D05D86762C2C0CA100C8A9A0 /* MainFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MainFeature;
+		};
+		D05D86782C2C0CA100C8A9A0 /* MarketplaceClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarketplaceClientLive;
+		};
+		D05D867A2C2C0CA100C8A9A0 /* MarketplaceFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarketplaceFeature;
+		};
+		D05D867C2C2C0CA100C8A9A0 /* Models */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Models;
+		};
+		D05D867E2C2C0CA100C8A9A0 /* NewUserFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewUserFeature;
+		};
+		D05D86802C2C0CA100C8A9A0 /* NewsClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewsClientLive;
+		};
+		D05D86822C2C0CA100C8A9A0 /* NewsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewsFeature;
+		};
+		D05D86842C2C0CA100C8A9A0 /* OfferRedemptionFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OfferRedemptionFeature;
+		};
+		D05D86862C2C0CA100C8A9A0 /* PartnerChallengesFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PartnerChallengesFeature;
+		};
+		D05D86882C2C0CA100C8A9A0 /* ProfileEditFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProfileEditFeature;
+		};
+		D05D868A2C2C0CA100C8A9A0 /* ProfileFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProfileFeature;
+		};
+		D05D868C2C2C0CA100C8A9A0 /* ProjectDetailFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectDetailFeature;
+		};
+		D05D868E2C2C0CA100C8A9A0 /* ProjectFundingFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectFundingFeature;
+		};
+		D05D86902C2C0CA100C8A9A0 /* ProjectsClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectsClientLive;
+		};
+		D05D86922C2C0CA100C8A9A0 /* ProjectsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectsFeature;
+		};
+		D05D86942C2C0CA100C8A9A0 /* QuizClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = QuizClientLive;
+		};
+		D05D86962C2C0CA100C8A9A0 /* QuizFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = QuizFeature;
+		};
+		D05D86982C2C0CA100C8A9A0 /* RegionsClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RegionsClientLive;
+		};
+		D05D869A2C2C0CA100C8A9A0 /* RegisterUserFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RegisterUserFeature;
+		};
+		D05D869C2C2C0CA100C8A9A0 /* SelectAvatarFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SelectAvatarFeature;
+		};
+		D05D869E2C2C0CA100C8A9A0 /* SelectRegionFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SelectRegionFeature;
+		};
+		D05D86A02C2C0CA100C8A9A0 /* Styling */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Styling;
+		};
+		D05D86A22C2C0CA100C8A9A0 /* SurveysClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SurveysClient;
+		};
+		D05D86A42C2C0CA100C8A9A0 /* SurveysClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SurveysClientLive;
+		};
+		D05D86A62C2C0CA100C8A9A0 /* SurveysFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SurveysFeature;
+		};
+		D05D86A82C2C0CA100C8A9A0 /* TrophiesFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TrophiesFeature;
+		};
+		D05D86AA2C2C0CA100C8A9A0 /* TrophyClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TrophyClientLive;
+		};
+		D05D86AC2C2C0CA100C8A9A0 /* UserChallengeFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserChallengeFeature;
+		};
+		D05D86AE2C2C0CA100C8A9A0 /* UserClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserClientLive;
+		};
+		D05D86B02C2C0CA100C8A9A0 /* UserFavoritesFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserFavoritesFeature;
+		};
+		D05D86B22C2C0CA100C8A9A0 /* UserListFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserListFeature;
+		};
+		D05D86B42C2C0CA100C8A9A0 /* UserProgressesFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserProgressesFeature;
+		};
+		D0C1F74C2C2032A900888A1E /* APIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = APIClient;
+		};
+		D0C1F74E2C2032A900888A1E /* AppFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeature;
+		};
+		D0C1F7502C2032A900888A1E /* AuthenticateUserFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuthenticateUserFeature;
+		};
+		D0C1F7522C2032A900888A1E /* AvatarClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AvatarClient;
+		};
+		D0C1F7542C2032A900888A1E /* AvatarClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AvatarClientLive;
+		};
+		D0C1F7562C2032A900888A1E /* BecomePartner */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BecomePartner;
+		};
+		D0C1F7582C2032A900888A1E /* BecomeSponsor */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BecomeSponsor;
+		};
+		D0C1F75A2C2032A900888A1E /* BecomeSponsorClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BecomeSponsorClientLive;
+		};
+		D0C1F75C2C2032A900888A1E /* ChallengeTemplateFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChallengeTemplateFeature;
+		};
+		D0C1F75E2C2032A900888A1E /* ChallengesClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChallengesClient;
+		};
+		D0C1F7602C2032A900888A1E /* ChallengesClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChallengesClientLive;
+		};
+		D0C1F7622C2032A900888A1E /* Components */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Components;
+		};
+		D0C1F7642C2032A900888A1E /* CreateUserFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CreateUserFeature;
+		};
+		D0C1F7662C2032A900888A1E /* DashboardFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DashboardFeature;
+		};
+		D0C1F7682C2032A900888A1E /* DebuggingOverrides */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DebuggingOverrides;
+		};
+		D0C1F76A2C2032A900888A1E /* DeepLinking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DeepLinking;
+		};
+		D0C1F76C2C2032A900888A1E /* DeepLinkingClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DeepLinkingClientLive;
+		};
+		D0C1F76E2C2032A900888A1E /* EditChallengeFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = EditChallengeFeature;
+		};
+		D0C1F7702C2032A900888A1E /* Fakes */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Fakes;
+		};
+		D0C1F7722C2032A900888A1E /* InfoClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfoClient;
+		};
+		D0C1F7742C2032A900888A1E /* InfoClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfoClientLive;
+		};
+		D0C1F7762C2032A900888A1E /* InfoFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfoFeature;
+		};
+		D0C1F7782C2032A900888A1E /* InviteUsersToChallengeFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InviteUsersToChallengeFeature;
+		};
+		D0C1F77A2C2032A900888A1E /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Logging;
+		};
+		D0C1F77C2C2032A900888A1E /* LoginFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LoginFeature;
+		};
+		D0C1F77E2C2032A900888A1E /* MainFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MainFeature;
+		};
+		D0C1F7802C2032A900888A1E /* MarketplaceClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarketplaceClientLive;
+		};
+		D0C1F7822C2032A900888A1E /* MarketplaceFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarketplaceFeature;
+		};
+		D0C1F7842C2032A900888A1E /* Models */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Models;
+		};
+		D0C1F7862C2032A900888A1E /* NewUserFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewUserFeature;
+		};
+		D0C1F7882C2032A900888A1E /* NewsClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewsClientLive;
+		};
+		D0C1F78A2C2032A900888A1E /* NewsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewsFeature;
+		};
+		D0C1F78C2C2032A900888A1E /* OfferRedemptionFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OfferRedemptionFeature;
+		};
+		D0C1F78E2C2032A900888A1E /* PartnerChallengesFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PartnerChallengesFeature;
+		};
+		D0C1F7902C2032A900888A1E /* ProfileEditFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProfileEditFeature;
+		};
+		D0C1F7922C2032A900888A1E /* ProfileFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProfileFeature;
+		};
+		D0C1F7942C2032A900888A1E /* ProjectDetailFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectDetailFeature;
+		};
+		D0C1F7962C2032A900888A1E /* ProjectFundingFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectFundingFeature;
+		};
+		D0C1F7982C2032A900888A1E /* ProjectsClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectsClientLive;
+		};
+		D0C1F79A2C2032A900888A1E /* ProjectsFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectsFeature;
+		};
+		D0C1F79C2C2032A900888A1E /* QuizClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = QuizClientLive;
+		};
+		D0C1F79E2C2032A900888A1E /* QuizFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = QuizFeature;
+		};
+		D0C1F7A02C2032A900888A1E /* RegionsClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RegionsClientLive;
+		};
+		D0C1F7A22C2032A900888A1E /* RegisterUserFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RegisterUserFeature;
+		};
+		D0C1F7A42C2032A900888A1E /* SelectAvatarFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SelectAvatarFeature;
+		};
+		D0C1F7A62C2032A900888A1E /* SelectRegionFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SelectRegionFeature;
+		};
+		D0C1F7A82C2032A900888A1E /* Styling */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Styling;
+		};
+		D0C1F7AA2C2032A900888A1E /* SurveysClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SurveysClient;
+		};
+		D0C1F7AC2C2032A900888A1E /* SurveysClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SurveysClientLive;
+		};
+		D0C1F7AE2C2032A900888A1E /* SurveysFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SurveysFeature;
+		};
+		D0C1F7B02C2032A900888A1E /* TrophiesFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TrophiesFeature;
+		};
+		D0C1F7B22C2032A900888A1E /* TrophyClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TrophyClientLive;
+		};
+		D0C1F7B42C2032A900888A1E /* UserChallengeFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserChallengeFeature;
+		};
+		D0C1F7B62C2032A900888A1E /* UserClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserClientLive;
+		};
+		D0C1F7B82C2032A900888A1E /* UserFavoritesFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserFavoritesFeature;
+		};
+		D0C1F7BA2C2032A900888A1E /* UserListFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserListFeature;
+		};
+		D0C1F7BC2C2032A900888A1E /* UserProgressesFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserProgressesFeature;
+		};
+		F1BCF46F292B9CF200A3E3F9 /* QuizClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = QuizClientLive;
+		};
+		F1CD962829315CAD0034B6A3 /* MarketplaceClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MarketplaceClientLive;
+		};
+		F46A5EF4293645CB00CD2BD2 /* TrophyClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TrophyClientLive;
+		};
+		F46A5EF82939FBAF00CD2BD2 /* SurveysClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SurveysClientLive;
+		};
+		F47E5D8C2979413A008C3593 /* BecomeSponsorClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BecomeSponsorClientLive;
+		};
+		F4A994D32949C8010050CD67 /* AvatarClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AvatarClientLive;
+		};
+		F4CE81382934F478008A06FD /* DeepLinkingClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DeepLinkingClientLive;
+		};
+		F4D71D75292CC04700C97EA0 /* InfoClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InfoClientLive;
+		};
+		F4FA03762907E5A7006FAF82 /* ProjectsClientLive */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectsClientLive;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F44EC87E287C30F50024D1E4 /* Project object */;
+}

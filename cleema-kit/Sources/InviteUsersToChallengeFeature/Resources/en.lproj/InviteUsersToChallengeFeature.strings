@@ -1,0 +1,9 @@
+"button.save" = "Save";
+
+"button.cancel" = "Cancel";
+
+"inviteUsers.title" = "Invite friends";
+
+"inviteUsers.message" = "You can take the challenge alone or invite your friends.\nChoose who you want to compete with.";
+
+"inviteUsers.empty.text" = "You're not friends with anyone at cleema yet.";

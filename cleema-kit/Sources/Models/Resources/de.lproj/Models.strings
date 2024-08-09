@@ -1,0 +1,13 @@
+"unit.days" = "Tage";
+
+"unit.weeks" = "Wochen";
+
+"unit.points" = "Punkte";
+
+"project.phase.pre.title" = "Nicht begonnen";
+
+"project.phase.within.title" = "Läuft gerade";
+
+"project.phase.post.title" = "Ziel erreicht";
+
+"project.phase.cancelled.title" = "Abgebrochen";

@@ -1,0 +1,37 @@
+"account.alert.remove.title" = "Remove account";
+
+"account.alert.remove.button.cancel.label" = "Cancel";
+
+"account.alert.remove.button.remove.label" = "Remove";
+
+"accountType.local" = "Local account";
+
+"accountType.server" = "cleema account\n%@";
+
+"account.activeSince.label" = "Active since %@";
+
+"button.invite.label" = "Invite";
+
+"button.edit-profile.label" = "Edit Profile";
+
+"section.trophy-case.label" = "Trophy Case";
+
+"button.remove-account.label" = "Delete account";
+
+"button.logout.label" = "Logout";
+
+"title" = "Profile";
+
+"action.done.label" = "Done";
+
+"button.convert-account.label" = "Register with cleema";
+
+"action.convert-account.label" = "Register";
+
+"action.cancel-convert-account.label" = "Cancel";
+
+"account.info.local_user" = "Your data is stored only on your device. They will be deleted as soon as you log out.";
+
+"account.info.remote_user" = "Your data is backed up on our server. So you can use advanced functionalities and log out and log in without data loss.";
+
+"convert-account.info" = "Sign up with cleema! Your data will be saved on our server. So you can use advanced functionalities and log out and log in without data loss.";

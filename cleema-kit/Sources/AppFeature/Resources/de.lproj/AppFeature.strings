@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Markus Müller on 25.10.22.
+  
+*/
+"Home" = "Start";
+
+"News" = "Magazin";
+
+"Projects" = "Projekte";
+
+"Challenges" = "Challenges";
+
+"Market" = "Marktplatz";
+
+"box.new-friend.title" = "Glückwunsch";
+
+"box.new-friend.message" = "%@ und du sind jetzt Freunde!";
+
+"box.invite.title" = "Freunde einladen";
+
+"box.invite.message" = "Teile den Link und lade deine Freunde zu cleema ein.";
+
+"box.invite.action" = "Jetzt einladen";
+
+"box.new-trophy.title" = "Neue Auszeichnung";
+
+"box.new-trophy.action" = "Super, danke!";
+
+"alert.sponsor.localUser.title" = "Sponsoring-Mitgliedschaft nicht möglich";
+
+"alert.sponsor.localUser.message" = "Lokale Nutzer:innen können keine Sponsoren werden. Gehe zum Profil, um dein Konto umzuwandeln.";
+
+"alert.sponsor.localUser.button" = "Zum Profil";

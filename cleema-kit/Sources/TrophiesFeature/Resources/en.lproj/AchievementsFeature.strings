@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Rico Becker on 26.10.22.
+  
+*/
+
+"loading" = "Loading";
+
+"quiz.streak.title" = "Quiz with streak of %d";
+
+"trophies.empty.label" = "You don't have any trophies yet. Join a challenge, support a project, or invite friends to collect them.";
+
+"trophy.detail.title" = "Your Trophy";
+
+"trophy.received.label" = "Received on";
+
+"trophy.detail.action.done.label" = "Done";

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Markus Müller on 25.10.22.
+  
+*/
+
+"alert.invitation.local-impossible.title" = "Accepting invitation impossible";
+
+"alert.invitation.local-impossible.message" = "Local users cannot accept invitation links. Please convert your account to a remote account and then tap the invitation link again.";
+
+"alert.invitation.denied.title" = "Invitation denied";
+
+"alert.invitation.denied.message" = "Local users cannot invite other users.";
+
+"alert.invitation.dismiss.title" = "Dismiss";
+
+"alert.generic.title" = "Warning";
+
+"alert.generic.message" = "Something went wrong";

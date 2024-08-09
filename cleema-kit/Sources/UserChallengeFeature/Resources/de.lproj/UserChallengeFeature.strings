@@ -1,0 +1,37 @@
+"form.state.pending.summary" = "Und %@?";
+
+"pendingThisWeek" = "Und diese Woche?";
+
+"pendingLastWeek" = "Und letzte Woche?";
+
+"form.state.answered.summary" = "Super, morgen gehts weiter.";
+
+"form.state.expired.summary" = "Challenge ist abgelaufen";
+
+"alert.leave.title.label" = "Teilnahme an \"%@\" beenden";
+
+"alert.leave.action.cancel.label" = "Abbrechen";
+
+"alert.leave.action.leave.label" = "Verlassen";
+
+"challenge" = "Challenge";
+
+"finished" = "abgeschlossen";
+
+"start" = "Start";
+
+"end" = "Ende";
+
+"action.leave.label" = "Challenge verlassen";
+
+"progress.numberOfUnitsDone.count" = "%d";
+
+"progress.numberOfUnitsDone.label" = "%@ von";
+
+"progress.duration.count" = "%d";
+
+"progress.duration.label" = "geschafft";
+
+"progress.bar.label.collective" = "Gemeinsamer Fortschritt";
+
+"progress.bar.label.personal" = "Eigener Beitrag";

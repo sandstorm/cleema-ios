@@ -1,0 +1,42 @@
+stages:
+  - build
+
+# TODO: add test ci and add "needs" step, so that tests are being run before deployments
+
+# Builds the ios app and produces a local file
+# Publishes the App to Testflight
+# Also sends a Slack notification
+app_build_and_publish_ios:
+  extends: .app_base_ios
+  stage: build
+  dependencies: [] # do not download artifacts from other jobs
+  when: manual
+  # rules: TODO: later we want to publish the main branch automatically but not today
+  #  - if: '$CI_COMMIT_BRANCH =~ /^main/'
+  #    changes:
+  #      - app/**/*
+  #      - gitlab-ci/*
+  #      - .gitlab-ci.yml
+  cache:
+    - key: pub-cache-$CI_COMMIT_REF_SLUG
+      paths:
+        - $CI_PROJECT_DIR/.pub-cache/
+  script:
+    - export PUB_CACHE=$CI_PROJECT_DIR/.pub-cache
+    - export PATH="$PATH":"$PUB_CACHE/bin"
+    - cat $ENV_FILE > .env
+    - fastlane beta
+
+.app_base_ios:
+  variables:
+    # disable shallow cloning, because we use a shared shell runner - so having everything cloned is way faster.
+    GIT_DEPTH: "0"
+  interruptible: true
+  tags: [ osx ] # runs on MAC Mini
+  resource_group: ios-build # ensure the OSX build runs sequentially across ALL pipelines in this project.
+  before_script:
+    - killall Terminal 2> /dev/null || echo "no running Terminal found, no problem"
+    - killall java 2> /dev/null || echo "no running java found, no problem"
+    - killall watchman 2> /dev/null || echo "no running watchman found, no problem"
+    - export LC_ALL=en_US.UTF-8
+    - export LANG=en_US.UTF-8

@@ -1,0 +1,51 @@
+"form.section.title.label" = "Title";
+
+"form.section.title.textfield.title.label" = "Title";
+
+"form.section.description.label" = "Description";
+
+"form.section.teaser.label" = "Teaser Text";
+
+"form.section.goal.label" = "Goal";
+
+"form.section.goal.picker.goal-type.label" = "Goal Type";
+
+"form.section.goal.picker.goal-type.progress.label" = "Progress";
+
+"form.section.goal.picker.goal-type.progress.stepper.times" = "%d times";
+
+"form.section.goal.picker.goal-type.measurement.label" = "Measurement";
+
+"form.section.goal.picker.goal-type.measurement.unit" = "Unit";
+
+"form.section.details.label" = "Details";
+
+"form.section.details.picker.interval.label" = "Value collection happens";
+
+"form.section.details.picker.start.label" = "Starting on";
+
+"form.section.details.picker.end.label" = "Running until";
+
+"form.section.details.toggle.is-public.label" = "Share with Friends";
+
+"title" = "Create your Challenge";
+
+"button.next" = "Next";
+
+"button.save" = "Save";
+
+"button.cancel" = "Cancel";
+
+"form.section.details.is-public.hint" = "I agree that my nickname as well as my challenge progress can be displayed to other users of the app I invited to this challenge.";
+
+"form.section.details.invite-friends.hint" = "Create a Cleema account to invite friends to your challenge!";
+
+"form.section.details.picker.interval.daily" = "Daily";
+
+"form.section.details.picker.interval.weekly" = "Weekly";
+
+"button.keyboard.done" = "Done";
+
+"edit.hint" = "You can customize this template. ";
+
+"edit.hint.saving" = "This challenge can currently not be edited after saving, so best to take another look.";

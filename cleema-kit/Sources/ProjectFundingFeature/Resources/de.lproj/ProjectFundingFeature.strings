@@ -1,0 +1,16 @@
+"funding.picker.amount.label" = "Bitte wähle einen Betrag";
+
+"funding.picker.amount.value.custom.label" = "Anderer ...";
+
+"funding.textfield.amount.custom.label" = "Eigener Betrag";
+
+"funding.button.action.label" = "Unterstützen";
+
+"funding.summary" = "Du hast %@ gegeben. Danke. Du bist großartig!";
+
+"funding.button.again-action.label" = "Nochmals unterstützen...";
+
+"funding.goal.summary" = "Dieses Projekt benötigt %@ um realisiert zu werden.Bis jetzt wurden bereits %@ von der Community gesammelt. Du kannst dabei helfen, das Projekt wahr werden zu lassen!";
+
+"funding.goal.reached" = "Hurra! Dieses Projekt hat sein Ziel von %@ erreicht!";
+

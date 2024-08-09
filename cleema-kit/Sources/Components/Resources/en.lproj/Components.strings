@@ -1,0 +1,25 @@
+"form.error.name-empty" = "Name must not be empty";
+
+"form.error.email-invalid" = "Not a valid email";
+
+"form.error.password-too-short" = "Password must have at least 10 characters";
+
+"form.error.passwords-do-not-match" = "Password and confirmation do not match";
+
+"form.error.old-password-not-matching" = "Previous password is incorrect";
+
+"form.error.no-region-selected" = "A default region must be selected";
+
+"form.password.hint" = "Your password should consist of at least 12 characters. It should contain upper and lower case letters, numbers and special characters.";
+
+"progress.numberOfUnitsDone.count" = "%d";
+
+"progress.numberOfUnitsDone.label" = "%@ of";
+
+"progress.duration.count" = "%d";
+
+"progress.duration.label" = "done";
+
+"progress.bar.label.collective" = "Collective Progress";
+
+"progress.bar.label.personal" = "Personal Contribution";

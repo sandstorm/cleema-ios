@@ -1,0 +1,16 @@
+- build
+- .build
+- .*View.swift
+- .*Debug.swift
+- .*Style.swift
+- .*Shape.swift
+- .*Preference.swift
+- Extensions/Views
+- .Legacy*.swift
+- Legacy*.swift
+- .Package.swift
+- Local\ Packages/Sensors
+- Local\ Packages/Trainers
+- Generated
+- Cleema/Resources
+- Tools

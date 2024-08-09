@@ -1,0 +1,5 @@
+tap "homebrew/bundle"
+brew "swiftformat"
+brew "swiftlint"
+brew "ImageMagick"
+# brew "robotsandpencils/made/xcodes"

@@ -1,0 +1,12 @@
+--wraparguments before-first
+--wrapcollections before-first
+--exclude "Package.swift", ".swiftpm", "Generated"
+--binarygrouping none
+--commas inline
+--decimalgrouping 3
+--hexgrouping none
+--hexliteralcase lowercase
+--ifdef no-indent
+--octalgrouping none
+--semicolons never
+--disable unusedArguments

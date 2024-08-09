@@ -1,0 +1,21 @@
+/*
+  Localizable.strings
+  
+
+  Created by Markus Müller on 25.10.22.
+  
+*/
+
+"alert.invitation.local-impossible.title" = "Anfrage kann nicht angenommen werden";
+
+"alert.invitation.local-impossible.message" = "Lokale Nutzer können keine Freundschaftsanfragen annehmen. Ändere deinen Account zu Online und klicke den Einladungs-Link erneut.";
+
+"alert.invitation.denied.title" = "Einladung abgelehnt";
+
+"alert.invitation.denied.message" = "Lokale Nutzer können keine anderen Nutzer einladen.";
+
+"alert.invitation.dismiss.title" = "Schließen";
+
+"alert.generic.title" = "Achtung";
+
+"alert.generic.message" = "Da ist leider etwas schiefgegangen.";

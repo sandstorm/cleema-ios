@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "searchbar-background.svg",
+      "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "left" : 20,
+          "right" : 20
+        },
+        "center" : {
+          "mode" : "stretch",
+          "width" : 0
+        },
+        "mode" : "3-part-horizontal"
+      }
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

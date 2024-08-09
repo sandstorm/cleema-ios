@@ -1,0 +1,9 @@
+"button.save" = "Speichern";
+
+"button.cancel" = "Abbrechen";
+
+"inviteUsers.title" = "Freunde einladen";
+
+"inviteUsers.message" = "Du kannst dich der Challenge allein stellen oder deine Freunde dazu einladen.\nWähle aus, mit wem du dich messen willst.";
+
+"inviteUsers.empty.text" = "Du bist noch mit niemandem bei cleema befreundet.";

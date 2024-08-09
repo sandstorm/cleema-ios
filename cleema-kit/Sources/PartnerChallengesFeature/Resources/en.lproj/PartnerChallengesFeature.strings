@@ -1,0 +1,21 @@
+"item.start.label" = "Start";
+
+"item.partner.label" = "Partner";
+
+"item.partner.title.default-value" = "Unknown partner";
+
+"start.label" = "Start";
+
+"partner.label" = "Partner";
+
+"button.join.label" = "Join";
+
+"button.leave.label" = "Leave";
+
+"numberOfUsers" = "%d Participating";
+
+"status" = "Status";
+
+"item.date.label.finished" = "finished";
+
+"progress.bar.label.collective" = "Collective Progress";

@@ -1,0 +1,1042 @@
+[
+  {
+    "question": "Wann traten die 17 Ziele für nachhaltige Entwicklung der Vereinten Nationen in Kraft?",
+    "a": "2019",
+    "b": "1988",
+    "c": "2016",
+    "d": "2012",
+    "answer": "c",
+    "explanation": "Die Mitgliedstaaten der Vereinten Nationen nahmen die 17 Nachhaltigkeitsziele (auch Agenda 2030 genannt) im Jahr 2015 an. In Kraft traten die SDGs am 1. Januar 2016.",
+    "source": "Testen Sie Ihr Wissen zum Thema Nachhaltigkeit! (bundesregierung.de)"
+  },
+  {
+    "question": "Das erste Nachhaltigkeitsziel (SDG) beabsichtigt, die extreme Armut auf der Welt zu beseitigen. Wer gilt nach einer Definition der Weltbank als extrem arm?",
+    "a": "Menschen, die über weniger als 5,50 Dollar am Tag verfügen",
+    "b": "Menschen, die über weniger als 1,90 Dollar am Tag verfügen",
+    "c": "Menschen, die über weniger als 2,75 Dollar am Tag verfügen",
+    "d": "Menschen, die über weniger als 3,75 Dollar am Tag verfügen",
+    "answer": "b",
+    "explanation": "Die Weltbank definiert Menschen als extrem arm, wenn sie weniger als 1,90 US-Dollar pro Tag zur Verfügung haben.",
+    "source": ""
+  },
+  {
+    "question": "Wie viele der weltweit produzierten Lebensmittel werden weggeworfen?",
+    "a": "Ein Viertel",
+    "b": "Ein Drittel",
+    "c": "Ein Achtel",
+    "d": "Ein Zehntel",
+    "answer": "b",
+    "explanation": "Fast ein Drittel der Lebensmittel landen weltweit im Müll. Lebenswichtige Ressourcen wie Ackerflächen und Wasser werden unnötig verschwendet, vermeidbare Treibhausgase entstehen. Die Bundesregierung macht mit ihrer Kampagne „Zu gut für die Tonne“ auf das Problem aufmerksam.",
+    "source": ""
+  },
+  {
+    "question": "Wie wirkt sich das Rauchen auf die Lebenserwartung von Männern aus (bei mindestens 10 Zigaretten am Tag)?",
+    "a": "Raucher leben im Schnitt 9,4 Jahre weniger als Nichtraucher",
+    "b": "Raucher leben genau so lange wie Nichtraucher",
+    "c": "Raucher leben im Schnitt 5 Jahre weniger als Nichtraucher",
+    "d": "Raucher leben im Schnitt 2 Jahre weniger als Nichtraucher",
+    "answer": "a",
+    "explanation": "Der Konsum von mehr als zehn Zigaretten pro Tag raubt Männern im Schnitt 9,4 Lebensjahre. Das geht aus Berechnungen des Deutschen Krebsforschungszentrums hervor. Frauen, die rauchen, leben demnach im Schnitt 7,3 Jahre kürzer. Auch ein moderater Konsum von weniger als zehn Zigaretten pro Tag reduziert die Lebenserwartung bei beiden Geschlechtern deutlich: um etwa fünf Jahre.",
+    "source": ""
+  },
+  {
+    "question": "Was ist die größte Trinkwasserressource in Deutschland?",
+    "a": "Das Grundwasser",
+    "b": "Die Flüsse",
+    "c": "Der Bodensee",
+    "d": "Die Nordsee",
+    "answer": "a",
+    "explanation": "Das Trinkwasser in Deutschland wird mit über 70 Prozent aus dem Grundwasser gespeist. Es ist damit die wichtigste Quelle für Trinkwasser.",
+    "source": ""
+  },
+  {
+    "question": "Wie hoch war der Anteil erneuerbarer Energien am Stromverbrauch in 2020?",
+    "a": "27 %",
+    "b": "46 %",
+    "c": "74 %",
+    "d": "12 %",
+    "answer": "b",
+    "explanation": "Der Anteil der erneuerbaren Energien am Stromverbrauch wächst beständig: von rund sechs Prozent im Jahr 2000 auf rund 46 Prozent im Jahr 2020. Damit wurde die Zielmarke von 35 Prozent für das Jahr 2020 vorzeitig deutlich übertroffen.",
+    "source": ""
+  },
+  {
+    "question": "Mit welcher Maßeinheit wird weltweit die Einkommensungleichheit gemessen?",
+    "a": "Mit dem Albertini-Koeffizienten",
+    "b": "Mit dem OECD Better Life Index",
+    "c": "Mit dem Gini-Koeffizienten",
+    "d": "Mit dem Ungleichheits-Index",
+    "answer": "c",
+    "explanation": "Der Gini-Koeffizient ist ein Maß, mit dem Ungleichheit dargestellt wird. Er kann Werte zwischen 0 und 1 annehmen. Je höher der Wert, desto stärker ausgeprägt ist die gemessene Ungleichheit.",
+    "source": ""
+  },
+  {
+    "question": "Welches Umweltsiegel ist das älteste und bekannteste in Deutschland?",
+    "a": "Der Blaue Engel",
+    "b": "Bioland-Siegel",
+    "c": "Grünstamm-Siegel",
+    "d": "PEFC Siegel",
+    "answer": "a",
+    "explanation": "Das Umweltzeichen „Blauer Engel“ ist die älteste umweltschutzbezogene Kennzeichnung für Produkte und Dienstleistungen. Sie wurde 1977 auf Initiative des Bundesinnenministers und durch den Beschluss der Umweltminister des Bundes und der Länder ins Leben gerufen.",
+    "source": ""
+  },
+  {
+    "question": "Wie viel Prozent Treibhausgasemissionen möchte die Bundesregierung bis 2030 gegenüber 1990 einsparen?",
+    "a": "35 %",
+    "b": "25 %",
+    "c": "70 %",
+    "d": "65 %",
+    "answer": "d",
+    "explanation": "Die Bundesregierung hat sich zum Ziel gesetzt, die Treibhausgasemissionen in Deutschland bis zum Jahr 2030 um 65 Prozent zu reduzieren – im Vergleich zu den Ausstößen im Jahr 1990. Bis 2045 soll Deutschland Treibhausgasneutralität erreichen.",
+    "source": ""
+  },
+  {
+    "question": "Wie viel Prozent der einheimischen Tierarten in Deutschland sind vom Aussterben bedroht?",
+    "a": "Rund 35 %",
+    "b": "Rund 60 %",
+    "c": "Etwa 20 %",
+    "d": "Etwa 8 %",
+    "answer": "a",
+    "explanation": "Von den einheimischen Tierarten in Deutschland sind 35 Prozent bestandsgefährdet, von den Pflanzenarten sind es 26 Prozent. Der Mensch ist auf die Vielfalt der Natur angewiesen. Ungefähr 70.000 Pflanzenarten werden zum Beispiel für medizinische Zwecke genutzt.",
+    "source": ""
+  },
+  {
+    "question": "Welches Kleidungsstück verbraucht das meiste Wasser in der Herstellung?",
+    "a": "Jeans",
+    "b": "Badehose",
+    "c": "Ski-Anzug",
+    "d": "T-Shirt",
+    "answer": "a",
+    "explanation": "Jeans sind aus Baumwolle. Für den Anbau dieser Naturfaser wird sehr viel Wasser gebraucht – je nach Herstellungsland pro Tonne zwischen 2000 und 9000 Liter. Das sind 14 bis 10 volle Badewannen: Problematisch ist das, weil es im Anbauland des Rohstoffs dazu führen kann, dass Gewässer austrocknen und der Grundwasserpegel sinkt. Menschen, Tieren und Pflanzen fehlt es dann an lebensnotwendigem Wasser. Das Austrocknen von Seen und Flüssen ist weltweit eine der größten Umweltkatastrophen.",
+    "source": "Quiz: Was weißt du über Umweltschutz? | bpb.de"
+  },
+  {
+    "question": "Welche Tierart ist vom Aussterben bedroht?",
+    "a": "Erdmännchen",
+    "b": "Hai",
+    "c": "Taube",
+    "d": "Wildschwein",
+    "answer": "b",
+    "explanation": "Nicht der Hai bedroht den Menschen, sondern umgekehrt: Jedes Jahr werden bis zu 100 Millionen Haie gefangen und getötet. Gefangen werden die Tiere aus sportlicher Aktivität, aber auch wegen ihren Flossen. Haifischflossensuppe gilt nämlich in manch einem Land als Delikatesse. Die Fischer hacken die Flossen ab und schmeißen die noch lebenden Tiere wieder zurück ins Meer; die Haie verenden, da sie ohne Flosse nicht mehr schwimmen können. Weil es immer weniger Haie in den Meere gibt, wird durch das weitere Töten der Tiere das ökologische Gleichgewicht gestört. Denn der Hai sorgt normalerweise dafür, dass sich bestimmte Meerestiere nicht zu stark vermehren.",
+    "source": ""
+  },
+  {
+    "question": "Unser hoher Fleischkonsum ist Gift für das Klima. Auf welche Nahrungsmittel solltest du als Weltretter allerdings eher VERZICHTEN, wenn du deine Ernährung umstellst?",
+    "a": "Dinkel und Hirse",
+    "b": "Äpfel und Feigen",
+    "c": "Avocado und Lachs",
+    "d": "Grünkohl und Erdbeeren",
+    "answer": "c",
+    "explanation": "Die in Hipster-Cafés und Fitness-Shakes beliebten Avocados haben eine extrem schlechte Ökobilanz. Bei Zuchtlachs ist es nicht unwahrscheinlich, dass er mit Soja gefüttert wurde - und für dessen Produktion wurde Regenwald abgeholzt.",
+    "source": "Umwelt-Quiz: Schaffst du diese 10 Aufgaben, rettest du die Welt - WELT"
+  },
+  {
+    "question": "Weniger Fleisch essen = bessere CO2-Bilanz. So weit, so gut. Aber wie sieht es mit Käse aus? Kleine Schätzfrage: Die Produktion von einem Kilo Käse verursacht ungefähr so viel CO2, wie eine Autofahrt von ...",
+    "a": "71,4km",
+    "b": "11,2km",
+    "c": "47,7km",
+    "d": "120,5km",
+    "answer": "a",
+    "explanation": "Köln - Düsseldorf und zurück: Das ist in etwa die Klimabilanz eines Kilos Käse aus konventioneller Herstellung (nach Zahlen von foodwatch). Besser: Bio-Käse mit 65,5 km. Deutlich besser: ein Kilo Schweinefleisch (konventionell) mit 25,8 km.",
+    "source": ""
+  },
+  {
+    "question": "Weniger Fleisch und Käse, eher bio - das ist ein Anfang zum Weltretten. Doch nicht nur, was du isst, sondern auch wie du einkaufst, ist wichtig. Stichwort Jute-Beutel. Was schätzt du, wie viel Prozent an Plastik werden in DE recycelt?",
+    "a": "Fast 100 %",
+    "b": "Fast 70 %",
+    "c": "Fast 45 %",
+    "d": "Fast 20 %",
+    "answer": "d",
+    "explanation": "Die Zahl recherchierte die ZEIT im Frühjahr in einem Dossier zu Plastikmüll. Von allem, was du im Gelben Sack sammelst, wird nur ein kleiner Teil tatsächlich wiederverwendet. Der größte Teil wird verbrannt - mit hochgiftigen Rückständen.",
+    "source": ""
+  },
+  {
+    "question": "Plastik sparen, wo es geht, ist also eine enorm gute Idee. Eine andere: Energie sparen, wo es geht. Welches dieser Alltagsgeräte könnte nach aktuellen Trends zunehmend zum Klimakiller werden?",
+    "a": "Fitness Tracker",
+    "b": "VR-Brillen",
+    "c": "Smartphones",
+    "d": "Gehirnchips",
+    "answer": "c",
+    "explanation": "Nach einer Studie kanadischer Forscher könnten Smartphones im Jahr 2040 14 Prozent aller CO2-Emissionen verursachen. Die Produktion ist besonders problematisch, da energieaufwändig. Die Lektion: Nicht ständig neue Elektrogeräte kaufen!",
+    "source": ""
+  },
+  {
+    "question": "So schön der Herbst dieses Jahr ist - so langsam wirst du wieder heizen wollen. Und siehe da, eine weitere Möglichkeit, CO2 zu sparen! Wenn du die Heizung etwas runterdrehst und die Raumtemperatur um einen Grad senkst, sparst du ...",
+    "a": "5 % CO2",
+    "b": "10 % CO2",
+    "c": "15 % CO2",
+    "d": "20 % CO2",
+    "answer": "b",
+    "explanation": "Zehn Prozent Einsparung für einen Grad Unterschied - ein guter Deal! Zumal du zusätzlich sechs Prozent Heizkosten sparst, die du ggf. in dickere Socken und einen gemütlichen Wollpulli (und Teetassen) investieren kannst.",
+    "source": ""
+  },
+  {
+    "question": "Und weil es so sexy ist, bleiben wir noch etwas im Haushalt. Geräte nicht auf Standby laufen zu lassen, ist eine offensichtliche Maßnahme. Aber womit kannst du deine CO2-Bilanz noch etwas verbessern?",
+    "a": "Wäsche auf 60 Grad statt 90 Grad waschen",
+    "b": "Toastbrot auf 3 statt auf 5 toasten",
+    "c": "Keine Mikrowelle benutzen",
+    "d": "Kerzen statt Glühbirnen anmachen",
+    "answer": "a",
+    "explanation": "Tatsächlich halbiert sich der CO2-Ausstoß, wenn du auf die Kochwäsche verzichtest. Grundsätzlich: Je kühler gewaschen und je voller die Trommel, desto besser fürs Klima. Wäscheständer statt Wäschetrockner hilft auch!",
+    "source": ""
+  },
+  {
+    "question": "Genug Alltag - raus in die große Welt! Aber am besten nicht mit dem Flugzeug! Um das Ziel von max. zwei Grad Erderwärmung zu halten, darf jeder Menschen nur 2,3 t CO2 pro Jahr produzieren. Eine Flugreise Berlin-Lissabon sorgt allein für ...",
+    "a": "ca. 0,5t (hin und zurück)",
+    "b": "ca. 0,75t (hin und zurück)",
+    "c": "ca. 1t (hin und zurück)",
+    "d": "ca. 2t (hin und zurück)",
+    "answer": "c",
+    "explanation": "Das halbe Jahresbudget geht für die eine Reise in der Economy-Class drauf, laut Zahlen des Flugkompensationsportals Atmosfair. Die Lektion: So wenig fliegen wie möglich und wenn, ggf. CO2 kompensieren. Andere Portale: Myclimate und Arktik.",
+    "source": ""
+  },
+  {
+    "question": "Zugegeben, das klingt jetzt alles ein bisschen unspaßig und nach Verzicht. Das ist, weil: Wir müssen verzichten! Wir leben über unsere CO2-Verhältnisse. Statt 2,3 t verursachte jeder Deutsche 2016 ...",
+    "a": "9,1t",
+    "b": "2,8t",
+    "c": "7,7t",
+    "d": "4,5t",
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Denn eine Veränderung von Lebensgewohnheiten lässt uns ja auch viel Neues, Ungeahntes entdecken. Zum Beispiel Gemüsereste! Die kannst du wegschmeißen oder ...",
+    "a": "als Biomasse zum Heizen nutzen",
+    "b": "an eine Tafel stiften",
+    "c": "zu einem Müsliriegel verarbeiten",
+    "d": "sammeln, einfrieren und daraus Gemüsebrühe kochen",
+    "answer": "d",
+    "explanation": "Die selbstgemachte Gemüsebrühe aus Resten (leckerer, gesünder, ökologischer) ist nur ein kleines Beispiel dafür, wie ein neuer Umgang mit Essen das Klima schonen und uns gleichzeitig bereichern kann.",
+    "source": ""
+  },
+  {
+    "question": "Und so schließt sich der Kreis: Wir sind wieder beim Essen. Das tun wir täglich. Und es kann Spaß machen. Und gesund sein. Und klimaschonender - wenn wir nicht so viel verschwenden wie aktuell. In GER sind das pro Kopf ...",
+    "a": "jährlich 10-20kg Lebensmittel",
+    "b": "jährlich 40-50kg Lebensmittel",
+    "c": "jährlich 80-90kg Lebensmittel",
+    "d": "jährlich 100-110kg Lebensmittel",
+    "answer": "c",
+    "explanation": "In dem Bereich liegen die jeweiligen Schätzungen des Landwirtschaftsministeriums und des WWF. Die Umweltschutzorganisation gibt an, dass ein Drittel aller global produzierter Lebensmittel vernichtet wird.",
+    "source": ""
+  },
+  {
+    "question": "In welchem Gewässer treibt der größte Plastikteppich der Welt?",
+    "a": "im Atlantik",
+    "b": "im Pazifik",
+    "c": "im Schwarzen Meer",
+    "d": "in der Nordsee",
+    "answer": "b",
+    "explanation": "Plastikinseln, größer als viele Länder, treiben im pazifischen Ozean. Unser Plastikmüll ist überall, selbst in der Tiefsee und der Arktis.",
+    "source": "Hallo Benjamin | Umwelt-Quiz (hallo-benjamin.de)"
+  },
+  {
+    "question": "Wie viele Plastiktüten werden pro Minute auf der Welt verbraucht?",
+    "a": "20",
+    "b": "200",
+    "c": "2 Millionen",
+    "d": "20 Millionen",
+    "answer": "b",
+    "explanation": "Auf diese große Zahl sollten wir nicht stolz sein. Die Lösung: Lieber mit einem Stoffbeutel einkaufen gehen!",
+    "source": ""
+  },
+  {
+    "question": "Woher kommt Mikroplastik hauptsächlich?",
+    "a": "Synthetische Kleidung",
+    "b": "Autoreifen",
+    "c": "Getränkeflaschen",
+    "d": "Kosmetikprodukte",
+    "answer": "c",
+    "explanation": "Mikro\" heißen diese Plastikteilchen, da sie so winzig klein sind, dass man sie nur unter dem Mikroskop erkennen kann.",
+    "source": ""
+  },
+  {
+    "question": "Was passiert, wenn Eisberge und Meereis schmelzen?",
+    "a": "Der Meeresspiegel steigt an",
+    "b": "Der Meeresspiegel bleibt gleich",
+    "c": "Das Meer wird kälter",
+    "d": "Der Salzgehalt des Meerwassers erhöht sich",
+    "answer": "b",
+    "explanation": "Der Meeresspiegel bleibt unverändert, da Wasser und Eis dieselbe Masse haben und somit gleich viel Wasser verdrängen (wie beim Auflösen eines Eiswürfels in einem Wasserglas). Die abschmelzenden Eisberge sind also nicht die Ursache für den Anstieg des Meeresspiegels. Das geschmolzene Festlandeis der großen Eisschilde (Grönland und Antarktis) und das Wasser aus Gebirgsgletschern hingegen lassen den Meeresspiegel ansteigen.",
+    "source": "In 80 Fragen um die Welt - Das Quiz zum Klimawandel (bpb.de)"
+  },
+  {
+    "question": "Woraus besteht unsere Atmosphäre hauptsächlich?",
+    "a": "Luft",
+    "b": "CO2 und Methan",
+    "c": "Wasser",
+    "d": "Helium",
+    "answer": "a",
+    "explanation": "Die Atmosphäre besteht im Wesentlichen aus Luft, nämlich zu 78 % aus Stickstoff und zu 21 % aus Sauerstoff sowie 1 % Edelgase. CO2 und andere Gase sind nur in vergleichsweise geringen Mengen zu finden, weswegen sie auch als Spurengase bezeichnet werden. Dennoch haben diese Spurengase einen erheblichen Einfluss auf das Klima auf der Erde.",
+    "source": ""
+  },
+  {
+    "question": "Welches Gas hat den größten Anteil am natürlichenTreibhauseffekt (also dem nicht durch den Menschen verursachten)?",
+    "a": "Kohlendioxid",
+    "b": "Wasserdampf",
+    "c": "Methan",
+    "d": "Ozon",
+    "answer": "b",
+    "explanation": "Das wichtigste Gas ist der Wasserdampf, der für rund 60 % des natürlichen Treibhauseffekts verantwortlich ist. Er entsteht vor allem aus dem Wasser, das an der Meeresoberfläche verdunstet. Der natürliche Treibhauseffekt ist für das Leben auf der Erde sehr wichtig, ohne ihn wäre es deutlich kälter auf der Erde.",
+    "source": ""
+  },
+  {
+    "question": "Warum trägt das Abschmelzen von Gebirgsgletschern und Eis zu einer Verstärkung des Treibhauseffekts bei?",
+    "a": "Höhere Reflexion der Sonnenstrahlen",
+    "b": "Freisetzung der im Eis gespeicherten Methanhydrate",
+    "c": "Abschmelzende Gletscher tragen nicht zum Treibhauseffekt bei",
+    "d": "Niedrigere Reflexion der Sonnenstrahlen",
+    "answer": "d",
+    "explanation": "EisflächenreflektiereneinenTeilderSonnenstrahlungzurückinsWeltallundtragensozueinerAbkühlungderglobalenTemperaturbei.DiedunklenBödenbzw.dieMeeresoberflächeabsorbierenhingegensehrvielmehrderwarmenSonnenstrahlung,sodassdieTemperaturensteigen.",
+    "source": ""
+  },
+  {
+    "question": "Was sind Aerosole?",
+    "a": "Klimaschädliche Mundsprays",
+    "b": "Treibhausgase von Flugzeugen",
+    "c": "Kleine schwebende Teilchen in der Luft",
+    "d": "Salzwasser-Lösung",
+    "answer": "c",
+    "explanation": "AerosolesindkleinefesteoderflüssigePartikel,dieinderLuftschweben.SiehabeneinenwichtigenEinflussaufdasKlima,dasieStrahlungabsorbierenoderstreuenundauchzuKondensation(Wolkenbildung)führenkönnen(z.B.Sulfataerosole).IhrUrsprungkannz.B.dasMeersein(VerdampfungvonSalzwasser)oderVulkane(Asche).SiekönnenaberauchvomMenschenemittiertwerden.",
+    "source": ""
+  },
+  {
+    "question": "Welches Ereignis führt nicht zu einer Erwärmung des Klimas?",
+    "a": "Erhöhte Sonnenaktivität",
+    "b": "Schrumpfen von Eisflächen",
+    "c": "Rodung von Wäldern",
+    "d": "Große Vulkanausbrüche",
+    "answer": "d",
+    "explanation": "BeieinemgroßenVulkanausbruchwerdentausendeTonnenSchwefeldioxidindieAtmosphäregeschleudert.DortbildensichkleineSchwefelsäuretropfen,dieeinenTeildereintreffendenSonnenstrahleninsWeltallreflektieren.EskommenalsowenigerSonnenstrahlenaufderErdean,wodurchsichdasKlimaabkühlt.GroßeVulkanausbrüchewerdenmittlerweilefüreinigedergrößtenKlimaveränderungeninderGeschichtederErdeverantwortlichgemacht.",
+    "source": ""
+  },
+  {
+    "question": "Welches Phänomen ist der Grund für den Anstieg der globalen Temperatur?",
+    "a": "Ozonloch",
+    "b": "Tsunami",
+    "c": "Treibhauseffekt",
+    "d": "BSE",
+    "answer": "c",
+    "explanation": "WenndiewärmendenSonnenstrahlenaufderErdeeintreffen,werdensiedortzumTeilvonderErd-undMeeresoberflächezurückreflektiert.AbernichtdiegesamtezurückgeworfeneStrahlunggelangtwiederinsWeltall.Einige(Treibhaus-)GaseinderAtmosphäreabsorbiereneinenTeildieserStrahlungundstrahlendieseabsorbierteWärmewiederinalleRichtungenab,alsoauchinRichtungErde.DurchdieTreibhausgasenimmtdieTemperaturaufderErdealsozu.",
+    "source": ""
+  },
+  {
+    "question": "Der sog. „anthropogene Treibhauseffekt“ wird verursacht durch ...",
+    "a": "Die Sonne",
+    "b": "Den Menschen",
+    "c": "Meteoriten",
+    "d": "Tiere",
+    "answer": "b",
+    "explanation": "natürlichenTreibhauseffekt“,derschonimmerdieTemperaturaufderErdemitbestimmte,zeichnetsichder„anthropogeneTreibhauseffekt“dadurchaus,dasservomMenschenverursachtwird.Eristein„junges“PhänomenderKlimageschichte,dasmitdemBeginnderIndustrialisierungeinsetzte.",
+    "source": ""
+  },
+  {
+    "question": "Welches Treibhausgas wird vor allem für den globalen Temperaturanstieg der letzten 100 Jahre verantwortlich gemacht?",
+    "a": "Helium",
+    "b": "Kohlendioxid (CO2)",
+    "c": "FCKW (Fluorchlorkohlenwasserstoffe)",
+    "d": "Ozon",
+    "answer": "b",
+    "explanation": "CO2istmitAbstanddaswichtigsteTreibhausgas,mitdemderMenschdasKlimabeeinflusst.SeinAnteilbeträgt77%andengesamtendurchdenMenschenverursachtenTreibhausgasen.",
+    "source": ""
+  },
+  {
+    "question": "Was ist die wichtigste Ursache für die derzeitige Erhöhung des CO2-Gehalts in der Atmosphäre?",
+    "a": "Verbrennung fossiler Brennstoffe (Erdöl, Erdgas, Kohle etc)",
+    "b": "Industrielle Landwirtschaft",
+    "c": "Verbrennung von Wäldern",
+    "d": "Veränderungen in der Sonneneinstrahlung",
+    "answer": "a",
+    "explanation": "78% des Anstiegs gehen auf das Konto der Verbrennung fossiler Brennstoffe. 22% sind auf Landnutzungsänderungen (z.B.Rodungen) zurückzuführen. In der industriellen Landwirtschaft werden vor allem Methan und Distickstoffmonoxid emittiert, die ebenfalls stark klimaschädlich sind. Veränderungen in der Sonnenstrahlung können zwar grundsätzlich klimatische Veränderungen bewirken, sie bieten aber keine Erklärung für die Zunahme der Konzentration an CO2 in der Atmosphäre seit 1750.",
+    "source": ""
+  },
+  {
+    "question": "Welcher Anteil der Treibhausgasemissionen entfällt auf die Erzeugung und Nutzung von Energie (Energieemissionen)?",
+    "a": "35 %",
+    "b": "50 %",
+    "c": "65 %",
+    "d": "90 %",
+    "answer": "c",
+    "explanation": "Rund65 %derTreibhausgasemissionensindverbundenmitderErzeugungbzw.NutzungvonEnergie.DiewichtigstenVerursachersinddieErzeugungvonStrom(24 %),derVerkehr(14 %),dieIndustrie(14 %)undGebäude(8 %)",
+    "source": ""
+  },
+  {
+    "question": "Wie lange kann Kohlendioxid in der Atmosphäre verbleiben?",
+    "a": "Bis zu 1 Jahr",
+    "b": "Bis zu 10 Jahren",
+    "c": "Bis zu 100 Jahren",
+    "d": "Bis zu 1000 Jahren",
+    "answer": "c",
+    "explanation": "CO2hateinesehrlangeVerweildauerinderAtmosphäre.DadurchverteiltessichimLaufederZeitauchinderAtmosphäre,wodurchderTreibhauseffektzueinemglobalenPhänomenwirdundnichtprimärdieverursachendenIndustrieländerbetrifft.",
+    "source": ""
+  },
+  {
+    "question": "Wie groß ist der Anteil Nordamerikas und Europas an den globalen CO2-Emissionen durch Energieproduktion seit 1850?",
+    "a": "Etwa 40 %",
+    "b": "Etwa 50 %",
+    "c": "Etwa 60 %",
+    "d": "Etwa 70 %",
+    "answer": "d",
+    "explanation": "EssindbishervorallemdieIndustrieländergewesen,diedengrößtenAnteilamCO2-AusstoßgehabthabenunddamitfürdenKlimawandeldiegrößteVerantwortungtragen.DieEntwicklungsländerhabenzwarbisherwenigeralseinVierteldazubeigetragen,ihrCO2-AusstoßistindenvergangenenJahrzehntenaberdeutlichgestiegen.",
+    "source": ""
+  },
+  {
+    "question": "Wer oder was ist El Niño?",
+    "a": "Bezeichnung für ein Klimaphänomen im Pazifikraum",
+    "b": "Name des Wissenschaftlers, der erstmals auf einen möglichen menschenverursachten Klimawandel hinwies",
+    "c": "Name des größten Eisbergs der Welt",
+    "d": "Spielmacher der portugiesischen Nationalmannschaft",
+    "answer": "a",
+    "explanation": "El Niño ist eine Klimaanomalie, die seit Jahrtausenden in Abständen von zwei bis sieben Jahren zu erheblichen Veränderungen in der Wettersituation des pazifischen Raums führt. Betroffen von dem Phänomen sind vor allem die Westküste Südamerikas und der südostasiatische Raum. Sein Auftreten verursacht gewaltige Niederschläge und Überschwemmungen in normalerweise eher trockenen Regionen wie z.B. Südamerika, während in anderen Regionen plötzlich Dürre herrscht (z.B. Indonesien). El Niño ist eine natürliche Klimaanomalie. Allerdings ist strittig, inwiefern die globale Erwärmung seine Intensität steigern könnte bzw. bereits erhöht hat. El Niño trägt seinen Namen (spanisch = „das Christkind“) übrigens, weil das Phänomen meist um die Weihnachtszeit herum auftritt.",
+    "source": ""
+  },
+  {
+    "question": "Auch in Deutschland hat sich das Klima -verglichen mit der Situation vor 100 Jahren -verändert. Welche Aussage trifft nicht zu?",
+    "a": "Häufigere heiße und trockene Sommer",
+    "b": "Anstieg der Jahresmitteltemperatur um 1,6°C",
+    "c": "Zunahme der heftigen Stürme",
+    "d": "Abnahme der außergewöhnlich kalten Tage",
+    "answer": "b",
+    "explanation": "In den letzten 100 Jahren ist die durchschnittliche Temperatur in Deutschland um 0,8°C gestiegen.",
+    "source": ""
+  },
+  {
+    "question": "Welche Aussage ist falsch: Als Folge des Klimawandels ist schon heute spürbar...",
+    "a": "Ein früherer Blühbeginn von Bäumen und Pflanzen",
+    "b": "Ein verändertes Brut-und Wanderungsverhalten bei Vögeln",
+    "c": "Ein Rückgang der arktischen Eisdicke um bis zu 40 %",
+    "d": "Anstieg des Meeresspiegels um drei Meter seit 1900",
+    "answer": "d",
+    "explanation": "derMeeresspiegelistim20.Jahrhundertlediglichum17cmgestiegen.LangfristigkönntesichdieserWertaberdramatischerhöhen.Würdez.B.dasgesamteEisGrönlandsauftauen,würdederMeeresspiegelum7Meteransteigen.HierbeihandeltessichaberumeinlangfristigesSzenario,demeinAbschmelzprozessübermehrereJahrhunderteodersogarJahrtausendevorausgeht.",
+    "source": ""
+  },
+  {
+    "question": "Die Erwärmungsrate (Geschwindigkeit des globalen Temperaturanstiegs) der letzten 50 Jahre ist verglichen mit der Erwärmungsrate der letzten 100 Jahre....",
+    "a": "Um fast 50 % höher (= deutlich beschleunigter Temperaturanstieg)",
+    "b": "Leicht höher (= leicht beschleunigter Temperaturanstieg)",
+    "c": "Ungefähr gleich hoch (=kontinuierlicher Temperaturanstieg)",
+    "d": "Etwas niedriger (= etwas langsamerer Temperaturanstieg)",
+    "answer": "a",
+    "explanation": "DerglobaleTemperaturanstieghatsichindenvergangenen50Jahrendeutlichbeschleunigt.AuchderAnstiegdesMeeresspiegelsunddasAbschmelzenvonGebirgsgletschernhabensichspürbarbeschleunigt.",
+    "source": ""
+  },
+  {
+    "question": "Was ist die wichtigste Ursache für den aktuellen Anstieg des Meeresspiegels?",
+    "a": "Anstieg der Wassertemperatur der Ozeane",
+    "b": "Abschmelzen von Gebirgsgletschern",
+    "c": "Abschmelzen der Eisschilde in Grönland und der Antarktis",
+    "d": "Abschmelzen des arktischen Meereis",
+    "answer": "a",
+    "explanation": "EtwasmehralsdieHälftedesAnstiegswerdendurchdiegrößerethermischeAusdehnungdeswarmenWassersverursacht,etwa25 %durchabschmelzendeGebirgsgletscherundetwa15 %durchschmelzendeEisschilde.",
+    "source": ""
+  },
+  {
+    "question": "Um wie viel Prozent ist der Anteil an CO2 in der Atmosphäre seit 1750 gestiegen?",
+    "a": "35 %",
+    "b": "150 %",
+    "c": "10 %",
+    "d": "100 %",
+    "answer": "a",
+    "explanation": "BetrugdieCO2-KonzentrationinderAtmosphäre1750nochetwa280ppm*,sosindesheutebereits380ppm.AuchwenndieseZahlzunächstgarnichtsobeeindruckendklingenmag,übertrifftderheutigeWertdieausEisbohrkernenbestimmtenatürlicheBandbreitederletzten650.000Jahre(180bis300ppm)beiWeitem.",
+    "source": ""
+  },
+  {
+    "question": "Im vergangenen Jahrhundert ist die Temperatur weltweit gestiegen um ...",
+    "a": "0,2 °C",
+    "b": "0,7 °C",
+    "c": "1,4 °C",
+    "d": "2,1 °C",
+    "answer": "b",
+    "explanation": "DieTemperaturistindenletzten100JahrenimglobalenMittelumca.0,7°Cgestiegen,inEuropasogarum1°C.",
+    "source": ""
+  },
+  {
+    "question": "Welche Auswirkungen des Klimawandels werden für Europa nichterwartet?",
+    "a": "sinkende landwirtschaftliche Erträge in ganz Europa",
+    "b": "höheres Risiko von Überflutungen, insbesondere für Küstenregionen",
+    "c": "mögliches Verschwinden der Hälfte aller alpinen Gletscher bis 2100",
+    "d": "Nord-Verschiebung der Lebensräume einiger Pflanzen und Tiere",
+    "answer": "a",
+    "explanation": "SinkendelandwirtschaftlicheErträgewerdenvorallemfürSüdeuropaerwartet.VorallemwegeneinergeringerenWasserverfügbarkeitundabnehmenderBodenfeuchtewirdeinRückgangderlandwirtschaftlichenProduktivitätindiesenRegionenerwartet.ImNordenwerden(zunächst)sogarsteigendeErträgealsFolgedesKlimawandelsprognostiziert.",
+    "source": ""
+  },
+  {
+    "question": "Wenn wir sofort aufhören würden, CO2 in die Luft „zu pusten“, würde bis 2030...",
+    "a": "Gar nichts passieren",
+    "b": "Die Temperatur wieder um bis zu 0,9°C sinken",
+    "c": "Die Temperatur um bis zu 0,6°C ansteigen",
+    "d": "Die Temperatur um bis zu 4°C ansteigen.",
+    "answer": "c",
+    "explanation": "SelbstbeidiesemExtremszenariowürdedieTemperaturzunächstweitersteigenaufgrundderTrägheitdesKlimasystems.UnsereEinflussmöglichkeitenaufdieKlimaentwicklungindenerstenJahrzehntensindalsostarkbegrenzt.Wennwirheutehandeln,tunwirdasvorallem,umdenweiterenAnstiegderTemperaturzubegrenzenfürdieZeitnach2030.",
+    "source": ""
+  },
+  {
+    "question": "Wie hoch ist der maximale Temperaturanstieg, den Experten bis Ende des Jahrhunderts für realistisch halten?",
+    "a": "0.5°C",
+    "b": "1,8°C",
+    "c": "4,0°C",
+    "d": "7,2°C",
+    "answer": "c",
+    "explanation": "DieglobalenTemperaturenkönntenbis2100imSchnittum4°Cansteigen.1.8°CsindderniedrigsteWert,dendieMenschheitderzeitnocherreichenkönnte.HierbeihandeltessichjeweilsumdenwahrscheinlichstenWertunterschiedlicherSzenarien(zwischen1,1–2,9°CimbestenFallundfürdasMaximalszenariozwischen2,4–6,4°C).WelchesderSzenarieneintretenwird,hängtvorallemdavonab,wieentschlossendieMenschenindenkommendenJahrenundJahrzehntenversuchen,denAusstoßanTreibhausgasenzureduzieren.JehöherderTemperaturanstieg,destogrößerdienegativenFolgen,mitdenengerechnetwerdenmuss.",
+    "source": ""
+  },
+  {
+    "question": "Welchen Temperaturanstieg halten Experten für einen wichtigen Schwellenwert, der bis 2100 nicht überschritten werden dürfte, um nicht mit gravierendsten Folgen des Klimawandels rechnen zu müssen?",
+    "a": "Max. 2°C über dem Niveau von heute",
+    "b": "Max. 2°C über dem vorindustriellen Niveau",
+    "c": "Max. 4°C über dem Niveau von heute",
+    "d": "Max. 4°C über dem vorindustriellen Niveau",
+    "answer": "b",
+    "explanation": "AbeinemSchwellenwertvon2°Cwirderwartet,dassdieMenschheitmitdrastischenFolgenzukämpfenhabenwird.Diesbedeutetabernicht,dassunterhalbder2°CGrenzekeineProblemeentstehenwürden.DerKlimawandelistschonjetztinvollemGangeundzeigtbereitsAuswirkungen.Grundsätzlichgilt:JegeringerderAnstiegderTemperatur,destowenigerdramatischwerdenvermutlichdieAuswirkungensein.DerWertvon2°CdürftesichauchdeshalbinPolitikundWissenschaftalsZielsetzungetablierthaben,weilerbereitseinsehrambitioniertesZieldarstellt.",
+    "source": ""
+  },
+  {
+    "question": "Wie nennt man den Grundsatz, nach dem vor allem diejenigen für die Kosten des Klimawandels aufkommen sollten, die für seine Entstehung am meisten verantwortlich sind?",
+    "a": "Generationenvertrag",
+    "b": "Kosten-/Nutzenverhältnis",
+    "c": "Verursacherprinzip",
+    "d": "„First come, first serve“ (Wer zuerst kommt, mahlt zuerst)",
+    "answer": "c",
+    "explanation": "DasVerursacherprinzipbesagt,dassderjenigedereinen(Umwelt-)Schadenherbeiführt,auchfürseineBeseitigungaufkommenmuss.InderPraxisistesaberoftnochso,dassdieKostenletztlichvonderAllgemeinheitgetragenwerden.AufdenKlimaschutzangewendetbedeutetdies,dassIndustrieländerwieDeutschlandunddieUSAsehrvielmehrzurglobalenErwärmungbeigetragenhabenalsdieEntwicklungs-undSchwellenländer.MitdenFolgendesKlimawandelsaberhabenalleRegionenzukämpfen.InvielenFällensindsogardieLänderamstärkstenbetroffen,dieamwenigstendazubeigetragenhaben.DasVerursacherprinzipistalsoeinwichtiger(ethischer)GrundsatzbeiderFrage,welcheLänderdiegrößtenAnstrengungenbeiderBekämpfungdesKlimawandelsunternehmenmüssen.",
+    "source": ""
+  },
+  {
+    "question": "Welche internationale Institution untersucht und bewertet unter dem Dach der UNO regelmäßig das Phänomen des Klimawandels?",
+    "a": "UN Sicherheitsrat",
+    "b": "Zwischenstaatliche Sachverständigengruppe über Klimaänderungen (IPCC)",
+    "c": "Internationale Energieagentur der OECD (IEA)",
+    "d": "UNEP (Umweltprogramm der Vereinten Nationen)",
+    "answer": "b",
+    "explanation": "DasIPCC(IntergovernmentalPanelonClimateChange)unternimmtselbstkeineForschung,sondernträgtdengegenwärtigenStandderWissenschaftunterschiedlicherDisziplinenzusammen.MittlerweilehatdasIPCCviersog.Sachstandsberichteherausgegeben(1990-1995-2001-2007)zudenwissenschaftlichenGrundlagendesdurchdenMenschenverursachtenKlimawandels,denFolgendesKlimawandelsundStrategienzurVermeidungbzw.Anpassung.ImIPCCsindnichtnurWissenschaftlervertreten,sondernauchPolitiker,dievonihrenRegierungenentsendetwurden.",
+    "source": ""
+  },
+  {
+    "question": "Worin sehen die meisten Experten das größte Potential, die Treibhausgasemissionen bis 2050 zu senken?",
+    "a": "Verbesserungen bei der Energieeffizienz",
+    "b": "Umstellung der Landwirtschaft von Rinder-auf Schweinezucht",
+    "c": "Stopp des Abholzens von Wäldern",
+    "d": "Ausbau der (CO2-freien) Kernkraft",
+    "answer": "a",
+    "explanation": "StudienderInternationalenEnergieagentur(IEA)sehenineinereffizienterenNutzungvonEnergiedasgrößtePotentialfürEmissionseinsparungen.Maßnahmec)bieteteinenwichtigenHebelbeidennicht-energiebezogenenEmissionen,dieinsgesamtetwaeinDrittelderEmissionenausmachen.DerBauneuerAtomkraftwerkewürdebis2050kaumeinenderarthohenEffekterreichen.ZwarwollenmehrereLänderneueAKWsbauen(bzw.tundiesbereits),dochistderderzeitigeAnteilderAtomenergieam„globalenEnergiemix“vergleichsweisegering(6,5 %)undwirdsichauchin40Jahrenvoraussichtlichnichtdrastischverändern.",
+    "source": ""
+  },
+  {
+    "question": "In welchem Land werden –gemessen am Kraftstoffverbrauch –am meisten Biokraftstoffe (Bio-Ethanol / Biodiesel) verwendet?",
+    "a": "USA",
+    "b": "Brasilien",
+    "c": "Deutschland",
+    "d": "China",
+    "answer": "b",
+    "explanation": "Biosprit-Vorreiter“istderzeiteindeutigBrasilien.Dortwerdenschonheute40 %desSpritbedarfsimVerkehr(ohneDiesel)überdasausZuckerrohrgewonneneBio-Ethanolgedeckt.ZwarsinddieUSAnebenBrasiliendergrößteProduzentvonBiokraftstoffen,derBio-Ethanol-AnteilamKraftstoffverbrauchbeträgtindenUSAallerdingslediglich2-3 %.InEuropaistessogarnur1 %undauchChinadecktseinenrapidesteigendenKraftstoffbedarfbisherfastkomplettausdenfossilenKraftstoffen.",
+    "source": ""
+  },
+  {
+    "question": "Mit welchem Hilfsmittel gewinnt die moderne Forschung wichtige Informationen über das Klima vergangener Epochen?",
+    "a": "Vulkanasche",
+    "b": "Eisbohrkerne",
+    "c": "Weltraumteleskop „Hubble“",
+    "d": "Meeresgrundbohrungen",
+    "answer": "b",
+    "explanation": "EisbohrkernesindzylinderförmigeEisstäbe,diesenkrechtausdemEis(z.B.ArktisoderAntarktis)„gezogen“werden.DieverschiedenenEisschichtenermöglicheneineRekonstruktionderKlimaverhältnisseinunterschiedlichenEpochen(z.B.durchAnalysederimEiseingeschlossenenLuftbläschen).EinigeEisbohrkernehabeneineLängevonüber3000Meternundsindüber400.000Jahrealt.",
+    "source": ""
+  },
+  {
+    "question": "In welchem Jahr wurde das IPCC (Intergovernmental Panel on Climate Change) ins Leben gerufen, um das Phänomen des Klimawandels zu untersuchen und Strategien zu seiner Bekämpfung zusammenzutragen?",
+    "a": "1966",
+    "b": "1977",
+    "c": "1988",
+    "d": "1999",
+    "answer": "c",
+    "explanation": "DasIPCC,dasauchals„Weltklimarat“bezeichnetwird,wurde1988vomUmweltprogrammderVereintenNationen(UNEP)undderWeltorganisationfürMeteorologie(WMO)initiiert.DasIPCCunternimmtkeineeigenenForschungen,sondernarbeitetaufderGrundlagedervorhandenenwissenschaftlichenStudienauseinerVielzahlvonLändern.",
+    "source": ""
+  },
+  {
+    "question": "Der weltweite Energiebedarf wird in den kommenden 50 Jahren vermutlich...",
+    "a": "Ungefähr gleich bleiben",
+    "b": "Ein wenig sinken",
+    "c": "Deutlich sinken",
+    "d": "Deutlich steigen",
+    "answer": "d",
+    "explanation": "FastalleSzenariengehenvoneinemweiterenAnstiegdesglobalenEnergieverbrauchsaus.LautPrognosenderInternationalenEnergieagentur(IEA)könntederglobaleEnergiebedarfbis2030umzwischen60und70Prozentansteigen.DiesbeinhaltetdieGefahr,dassdamitauchderCO2-Ausstoßweiterwachsenkönnte.",
+    "source": ""
+  },
+  {
+    "question": "In welchen Regionen wird der Energieverbrauch am stärksten wachsen?",
+    "a": "USA und Kanada",
+    "b": "EU-Länder",
+    "c": "Subsahara-Afrika",
+    "d": "China und Indien",
+    "answer": "d",
+    "explanation": "DergrößteAnstiegwirdallerWahrscheinlichkeitnachindensog.Schwellenländernstattfinden.ZwarhabenLänderwieChinaundIndienbishereinenvergleichsweisegeringenPro-Kopf-Energieverbrauch,dochwächstihreWirtschaftrapideunddamitauchihrEnergieverbrauch.SteigenderWohlstandist–zumindestbisher–stetsmiteinemAnstiegdesEnergieverbrauchseinhergegangen.",
+    "source": ""
+  },
+  {
+    "question": "Welcher der folgenden Energieträger hat die schlechteste Klimabilanz, stößt also am meisten CO2 (pro erzeugter Kilowattstunde) aus?",
+    "a": "Windenergie",
+    "b": "Erdöl",
+    "c": "Kernkraft",
+    "d": "Kohle",
+    "answer": "d",
+    "explanation": "BeiderVerbrennungvonKohlewirdammeistenCO2freigesetzt.Die„zweitschlechtesteBilanz“weistdasErdölauf.ErdgasistetwaswenigerklimaschädlichalsKohleundErdöl.BeiderErzeugungvonStromausKernkrafthandeltsichnichtumeinenchemischenVerbrennungsvorgang,sondernumeinekernphysikalischeSpaltung,beiderkeinCO2emittiertwird.WindenergieundandereErneuerbareEnergienzeichnensichvorallemdadurchaus,dassbeiderStromerzeugungkeinCO2freigesetztwird.",
+    "source": ""
+  },
+  {
+    "question": "Worüber gibt der Wirkungsgrad eines Kraftwerks Auskunft?",
+    "a": "Die klimaschädliche Wirkung des Kraftwerks (CO2-Ausstoß)",
+    "b": "Der Einfluss auf das lokale Umfeld (Natur, Arbeitsplätze etc.)",
+    "c": "Die Effizienz des Kraftwerks bei der Energieerzeugung",
+    "d": "Die Attraktivität eines Modellkraftwerks für private Investoren",
+    "answer": "c",
+    "explanation": "DerWirkungsgradeinesKraftwerksdrücktaus,wieeffizientdieeingesetzteEnergie(z.B.inFormvonKohleoderGas)inLeistungumgewandeltwird(z.B.inStrom).JehöherderWirkungsgrad,destowenigerEnergiegehtverloren.DenhöchstenWirkungsgraderreichenzurZeitmoderneGas-undDampfturbinen-Kraftwerke,dieWirkungsgradezwischen50-60 %erzielen.SelbstindiesengehtalsofastdieHälftederEnergiealleinedurchdieUmwandlungungenutztverloren.KlassischeKohlekraftwerkekommensogarnuraufWerteumdie40 %.",
+    "source": ""
+  },
+  {
+    "question": "Welcher Energieträger wird voraussichtlich noch am längsten in ausreichender Menge vorhanden sein?",
+    "a": "Erdgas",
+    "b": "Kohle",
+    "c": "Erdöl",
+    "d": "Uran",
+    "answer": "b",
+    "explanation": "WennmandienachgewiesenenReservendurchdieaktuelleJahresproduktionteilt,würdeKohlenochfür155Jahrereichen,Uranfür85Jahre,Erdgasfür64JahreundErdölfür42Jahre(EU-Kommission2007).DieKohlehatalsoeinenentscheidendenVorteilggü.anderenEnergieträgern,siewirdnochsehrlangevorhandensein.",
+    "source": ""
+  },
+  {
+    "question": "Welches Verkehrsmittel stößt pro km am wenigsten CO2 aus (pro Person)?",
+    "a": "Fernzug",
+    "b": "Flugzeug",
+    "c": "Auto",
+    "d": "Kreuzfahrtschiff",
+    "answer": "a",
+    "explanation": "ÖffentlicheVerkehrsmittel(Straßenbahn,Bus,Regional-undFernzüge)habeninderRegeleinendeutlichgeringerenCO2-AusstoßproPerson.BesondersvielCO2proKilometerwirdbeiKurzstreckenflügenfreigesetzt(z.B.Berlin-Köln),wegendeshohenSpritverbrauchsbeimStartundbeiderLandungderFlugzeuge.DerUmstiegauföffentlicheVerkehrsmittelverbessertalsodiepersönlicheKlimabilanz.VoralleminderStadtistesnatürlichnochbesser,zuFußzugehenoderdasFahrradzunehmen!",
+    "source": ""
+  },
+  {
+    "question": "Der Ausstoß von CO2 durch Flugzeuge (bei der Verbrennung von Benzin) ist...",
+    "a": "klimatechnisch unbedenklich, da das CO2 wegen der Flughöhe direkt ins All entweicht",
+    "b": "klimatechnisch genauso schädlich wie am Boden ausgestoßenes CO2",
+    "c": "klimatechnisch deutlich schädlicher als am Boden ausgestoßenes CO2",
+    "d": "klimatechnisch etwas weniger schädlich als am Boden ausgestoßenes CO2",
+    "answer": "c",
+    "explanation": "DasCO2,dasvonFlugzeugenfreigesetztwird,istrunddreiMalklimaschädlicheralsTreibhausgase,dieamBodenentweichen.",
+    "source": ""
+  },
+  {
+    "question": "Wofür steht auf einem Kühlschrank die Angabe „A“?",
+    "a": "Das Gerät hat einen vergleichsweise geringen Energieverbrauch (verglichen mit anderen Geräten seiner Klasse)",
+    "b": "Bestes Gerät im Test von Stiftung Warentest",
+    "c": "Das Gerät gehört in seiner Klasse zu den Kühlschränken mit dem niedrigsten Verbrauch überhaupt",
+    "d": "Das Gerät enthält kein FCKW",
+    "answer": "a",
+    "explanation": "Seit1998müsseninDeutschlandeinigeelektrischeHaushaltsgerätewieKühl-undGefrierschränkemiteinemsog.EU-Energielabelausgezeichnetsein.DerAufkleberzeigtdemKundenimGeschäft,wieenergiesparendeinGerätist.Während„A“füreinenvergleichsweisegeringenVerbrauchsteht,isteinmit„G“eingestuftesGeräteinechter„Energiefresser“.AllerdingsistbeiKühl-undGefrierschränkenheute„A“nichtmehrdasMaßallerDinge.DiewirklichenEnergiesparerbekommendasPrädikat„A+“odersogar„A++“.",
+    "source": ""
+  },
+  {
+    "question": "Wofür wird in den privaten Haushalten am meisten Energie verwendet?",
+    "a": "Auto",
+    "b": "Warmwasser",
+    "c": "Elektrogeräte",
+    "d": "Heizung",
+    "answer": "d",
+    "explanation": "DieprivatenHaushalteverbrauchenmitAbstandammeistenEnergiefürdasHeizen(53 %).DahinterfolgendasAuto(31 %)sowieWarmwasserundElektrogerätemitje8 %.AllerdingsistderEnergieverbrauchbeiElektrogerätenindenvergangenenJahrenerheblichgewachsen.",
+    "source": ""
+  },
+  {
+    "question": "Wie viele Kilometer kann ein Auto fahren, bis es die gleiche Menge an CO2 ausgestoßen hat, wie er pro Person bei einem Langstreckenflug von München nach Sydney (Hin- und zurück) emittiert wird?",
+    "a": "500 km",
+    "b": "5000 km",
+    "c": "12000 km",
+    "d": "40000 km",
+    "answer": "c",
+    "explanation": "BeidiesemLangstreckenflugwerdenproPerson(!)etwa12.300kgCO2freigesetzt.DiesentsprichtdamitinetwaeinemJahrAutofahren(12.000km)ineinemMittelklassewagen.ZumVergleich:DerBetriebeinesKühlschranksschlägtproJahrmitetwa100kgCO2-AusstoßzuBuche.EinInderkommtproJahrübrigensdurchschnittlichaufetwa900kgCO2insgesamt",
+    "source": ""
+  },
+  {
+    "question": "Wie hoch sind allein in Deutschland die jährlichen Kosten für den sog. Stand-By-Betrieb von Geräten (z.B. Fernseher oder Musikanlagen)?",
+    "a": "4 Mrd. Euro",
+    "b": "100 Mio. Euro",
+    "c": "10 Mrd. Euro",
+    "d": "850 Mio. Euro",
+    "answer": "a",
+    "explanation": "LautUmweltbundesamtaddierensichdieLeerlaufverlustederPrivathaushalteundBürosinDeutschlandjedesJahraufinsgesamtvierMilliardenEuro.DiesistmehrEnergiealsdieStädteBerlinundHamburgzusammenverbrauchenundmehralszweiGroßkraftwerkewiedieKernkraftwerkeBrokdorfundBiblis-AproJahrproduzieren.IneinemdurchschnittlichenHaushaltentfallenjedesJahretwa85EuroalleinaufdieLeerlaufverluste.EineebensoeinfachewieeffizienteLösungistderEinbaueinerSteckerleistemit„Ein/Aus-Knopf“.",
+    "source": ""
+  },
+  {
+    "question": "Kaffee oder Tee? Was ist besser fürs Klima?",
+    "a": "Ganz klar Tee. Da braucht man pro Tasse viel weniger von der Teepflanze.",
+    "b": "Fürs Büroklima ist auf jeden Fall Kaffee besser.",
+    "c": "Solange ich nicht in Tee und Kaffee bade, muss ich mir da keine Gedanken machen.",
+
+    "answer": "a",
+    "explanation": "Pro Tasse verursacht Kaffee viermal so viel CO2 wie Tee. Aber klar: Wer ohnehin wenig davon trinkt, muss sich den Genuss nicht verderben lassen. Man kann dann allerdings auf faire Arbeitsbedingungen und Bioanbau achten.",
+    "source": "Superheld oder Öko-Gangster? Machen Sie den Test! | oekom verlag"
+  },
+  {
+    "question": "Was schätzen Sie, wie viel Plastik landet jedes Jahr im Meer?",
+    "a": "Eher wenig. Es werden vor allem ein paar Plastiktüten vom Strand ins Wasser geweht.",
+    "b": "Bis zu zehn Prozent der weltweiten Kunststoffproduktion oder 30 Millionen Tonnen im Jahr.",
+    "c": "Mehr als die Hälfte von dem, was produziert wird. Also über 150 Millionen Tonnen. Es wird einfach viel Müll direkt ins Meer gekippt.",
+
+    "answer": "b",
+    "explanation": "Sechs bis 10 Prozent des weltweit produzierten Plastiks gelangt ins Meer. Meist gerät es erst in Bäche und Flüsse und wird auf dem Weg zu winzigen Partikeln zerrieben, die im Meer riesige Strudel bilden. Plastik direkt ins Meer zu kippen ist praktisch weltweit verboten.",
+    "source": ""
+  },
+  {
+    "question": "Was ist besser: Einweg- oder Stoffwindeln?",
+    "a": "Ganz klar Stoffwindeln: Säubern, waschen, trocknen – kein Müll.",
+    "b": "Ganz klar Einweg: Der Kunststoff, der die Nässe aufsaugt, brennt in der Müllverbrennung ganz toll und erzeugt so Wärme und Strom.",
+    "c": "Für die Umwelt sind beide etwa gleich.",
+
+    "answer": "c",
+    "explanation": "Ökologisch gleichwertig. Was bei den Einwegwindeln an Rohstoffen verbraucht wird, geht bei den Stoffwindeln für das Waschen wieder drauf.",
+    "source": ""
+  },
+  {
+    "question": "Die beste Ökobilanz hat Milch …",
+    "a": "… im Einweg-Tetra Pack.",
+    "b": "in der braunen Milchflasche mit Pfand.",
+    "c": "… im Schlauchbeutel aus Kunststoff.",
+
+    "answer": "c",
+    "explanation": "Lange Transporte und das aufwändige Spülen bei den Pfandflaschen führen dazu, dass ihre Ökobilanz kaum noch besser ist als die von Einweg-Tetra Paks. Am ökologischsten wird Milch in Schlauchbeuteln verpackt – die brauchen sehr wenig Material. Und lassen sich in der Müllverbrennung schadstofffrei verbrennen.",
+    "source": ""
+  },
+  {
+    "question": "Aus welchem Bereich stammt der Nachhaltigkeitsbegriff ursprünglich?",
+    "a": "Veganismus",
+    "b": "Tierhaltung",
+    "c": "Forstwirtschaft",
+
+    "answer": "c",
+    "explanation": "",
+    "source": "Das Nachthaltigkeits-Quiz - Nachhaltig essen im Saarland (nachhaltig-essen-im-saarland.de)"
+  },
+  {
+    "question": "Welcher Aspekt gehört nicht zur Nachhaltigkeit?",
+    "a": "Aspekt des Tierwohls",
+    "b": "Aspekt der Generationengerechtigkeit",
+    "c": "Aspekt der Langfristigkeit",
+
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Was versteht man unter dem Begriff „virtuelles Wasser“? Wasser, das . . .",
+    "a": ". . . zur Herstellung eines Produktes verbraucht wird.",
+    "b": ". . . ein Mensch im Laufe seines Lebens konsumiert.",
+    "c": ". . . im Internet gekauft werden kann.",
+
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Welches Bio-Siegel von der EU gibt es nicht?",
+    "a": "EU-Bio-Siegel",
+    "b": "EU-Bio-Stempel",
+    "c": "EU-Bio-Logo",
+
+    "answer": "b",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Was ist das „Problem“ mit dem Begriff „Region“?",
+    "a": "Ist nicht länderübergreifend verständlich.",
+    "b": "Ist nicht gesetzlich definiert.",
+    "c": "Ist nicht in andere Sprachen übersetzbar.",
+
+    "answer": "b",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie viele Tonnen Lebensmittel werden pro Jahr in Deutschland weggeworfen?",
+    "a": "10 Millionen Tonnen",
+    "b": "13 Millionen Tonnen",
+    "c": "18 Millionen Tonnen",
+
+    "answer": "c",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Was sollte laut der Bundesinitiative „Zu gut für die Tonne“ im obersten Fach des Kühlschranks gelagert werden?",
+    "a": "Leicht Verderbliches wie Fleisch, Fisch, Geflügel",
+    "b": "Kaese und Zubereitetes",
+    "c": "Obst und Gemüse",
+
+    "answer": "b",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Als was sollte das Mindesthaltbarkeitsdatum angesehen werden?",
+    "a": "Wegwerfdatum",
+    "b": "Richtwert",
+    "c": "Verkaufsdatum",
+
+    "answer": "b",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie lange braucht eine Plastikflasche, um im Meer zu zerfallen?",
+    "a": "150 Jahre",
+    "b": "250 Jahre",
+    "c": "450 Jahre",
+
+    "answer": "c",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Laut der Auswertung von über 50 Studien der University of Newcastle, nehmen wir Plastik in der Form welchen Gegenstands pro Woche zu uns?",
+    "a": "In Form einer Kreditkarte",
+    "b": "In Form einer Gabel",
+    "c": "In Form eines Schlüssels",
+    
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie viel Erz muss abgebaut werden, um 1 g Gold für die Produktion von 50 Smartphones zu gewinnen?",
+    "a": "0,5t",
+    "b": "1t",
+    "c": "1,5t",
+    "d": "2t",
+    "answer": "b",
+    "explanation": "",
+    "source": "Konsum und Nachhaltigkeit: Materialien und Quiz — Potsdam-Institut für Klimafolgenforschung (pik-potsdam.de)"
+  },
+  {
+    "question": "Welche Mengen an Rohstoffen verbraucht jede*r Deutsche im Durchschnitt pro Tag?",
+    "a": "50kg",
+    "b": "200kg",
+    "c": "350kg",
+    "d": "500kg",
+    "answer": "b",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Niemand sollte mehr verbrauchen, als auf einer Fläche von 1,7 ha produziert werden kann. Wie viel Fläche benötigt ein*e Deutsche*r durchschnittlich?",
+    "a": "5,1 ha",
+    "b": "7,3 ha",
+    "c": "8,9 ha",
+    "d": "10 ha",
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Welche dieser Optionen sind KEINE Beispiele für nachhaltigen Konsum?",
+    "a": "Vermeidung von Verpackungen beim Einkauf.",
+    "b": "Nutzung elektr. Geräte bis zum Ende ihrer Lebensdauer.",
+    "c": "Kauf der neuesten und billigsten Kleidung.",
+    "d": "Verschenken/Verkaufen von nicht mehr getragener Kleidung",
+    "answer": "c",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie viel CO2 pro kg wird für den Transport von Lebensmitteln aus Übersee im Vergleich zu regionalen Lebensmitteln freigesetzt?",
+    "a": "Halb so viel! Schiffe sind heutzutage sehr energieeffizient",
+    "b": "Doppelt so viel",
+    "c": "Achtmal so viel",
+    "d": "Elfmal so viel",
+    "answer": "d",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie viele CO2-Äquivalente* könnten gespart werden, würden nur Bananen, Kaffee und Tee importiert?",
+    "a": "7 %",
+    "b": "14 %",
+    "c": "22 %",
+    "d": "29 %",
+    "answer": "c",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie viele CO2-Emissionen pro Kopf verursacht das Essverhalten der Deutschen im Schnitt pro Jahr?",
+    "a": "0,6 t",
+    "b": "1,5 t",
+    "c": "2,1 t",
+    "d": "2,5 t",
+    "answer": "b",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie viel Kilogramm regionales Gemüse könnte innerhalb Deutschlands transportiert werden, für jedes kg eingeflogenen Gemüses aus Übersee?",
+    "a": "12kg",
+    "b": "37kg",
+    "c": "75kg",
+    "d": "90kg",
+    "answer": "d",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Womit kann man KEINE CO2-Emissionen im Lebensmittelsektor einsparen?",
+    "a": "Kauf von regionalem und saisonalem Obst und Gemüse.",
+    "b": "Überseetransport von Lebensmitteln durch Segelschiffe.",
+    "c": "Kauf von pflanzlichen und unverarbeiteten Lebensmitteln.",
+    "d": "Kauf von unverpackten oder recycelt verpackten Lebensmitteln",
+    "answer": "c",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Welche Ernährung produziert die geringste Menge an CO2?",
+    "a": "Vegetarische aus konventioneller Landwirtschaft",
+    "b": "Vegetarische aus biologischer Landwirtschaft.",
+    "c": "Vegane aus konventioneller Landwirtschaft",
+    "d": "Vegane aus biologischer Landwirtschaft",
+    "answer": "d",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Was sind KEINE Vorteile biologischer Landwirtschaft?",
+    "a": "Die Tiere werden täglich massiert.",
+    "b": "Weniger CO2-Emissionen (Verzicht künstl. Dünger/Pestizide).",
+    "c": "Artgerechte Tierhaltung.",
+    "d": "Keine Verwendung von Gentechnik",
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Um wie viel Prozent können Sie Ihre CO2- Emissionen durch den Kauf biologischer Produkte senken?",
+    "a": "5 %",
+    "b": "10 %",
+    "c": "15 %",
+    "d": "20 %",
+    "answer": "c",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie könnten Sie Ihren Einkauf nachhaltiger gestalten?",
+    "a": "Kauf biologischer, saisonaler und regionaler Lebensmittel",
+    "b": "Kauf von Gemüse aus dem Gewächshaus",
+    "c": "Obst und Gemüse aus konventionellem Anbau kaufen",
+    "d": "Durch und durch biologisch, nur das zählt!",
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Warum spart die Wahl eines Menüs aus Bio",
+    "a": "Verzicht auf energieintensive Kunstdünger und Pestizide.",
+    "b": "Bio-Kühe stoßen weniger Methan aus",
+    "c": "Bio-Lebensmittel sind schneller gar",
+    "d": "Bio ist immer regional mit geringeren Transportemissionen.",
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Für wie viel Prozent der Treibhausgas",
+    "a": "3 %",
+    "b": "7 %",
+    "c": "20 %",
+    "d": "36 %",
+    "answer": "c",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Warum ist die globale Tierhaltung für so viele Treibhausgas-Emissionen verantwortlich?",
+    "a": "Kühe produzieren viel Methan, ein starkes Treibhausgas",
+    "b": "Ziegen rülpsen große Mengen an CO2 aus",
+    "c": "Waldrodung für Flächen zum Tierfutteranbau setzt CO2 frei.",
+    "d": "Hühner setzen durch Picken im Boden eingelagertes CO2 frei.",
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie viel CO2 wird beim Herstellungsprozess von 1 kg Rindfleisch freigesetzt?",
+    "a": "5,2kg",
+    "b": "13,3kg",
+    "c": "15kg",
+    "d": "17,1kg",
+    "answer": "b",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Welchen Anteil hat die Tierhaltung an der Freisetzung von Treibhausgasen in der deutschen Landwirtschaft?",
+    "a": "71 %",
+    "b": "21 %",
+    "c": "35 %",
+    "d": "57 %",
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie können Sie CO2-Emissionen beim Fleisch",
+    "a": "Kaufen Sie nur Fleisch von Low-Carb Kühen.",
+    "b": "Reduzieren Sie Ihren Fleischkonsum auf 300 – 600 g pro Woche",
+    "c": "Fleisch aus konventioneller Tierhaltung konsumieren",
+    "d": "Essen Sie die Knochen mit.",
+    "answer": "b",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie viele der global produzierten Lebensmittel werden jedes Jahr weggeworfen?",
+    "a": "keine",
+    "b": "Ein Drittel",
+    "c": "Die Hälfte",
+    "d": "Drei Viertel",
+    "answer": "b",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie viel Agrarland wird global durch die Produktion von ungenutzten Lebensmitteln verschwendet?",
+    "a": "10 %",
+    "b": "20 %",
+    "c": "30 %",
+    "d": "40 %",
+    "answer": "c",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie viele Lebensmittel werden in Deutschland pro Jahr weggeworfen?",
+    "a": "1 Mio Tonnen",
+    "b": "5 Mio Tonnen",
+    "c": "7 Mio Tonnen",
+    "d": "11 Mio Tonnen",
+    "answer": "d",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Berücksichtigt man die Abfälle in der Produktionskette: Wie viele Lebensmittel landen in Europa pro Kopf pro Jahr im Müll?",
+    "a": "280-300 kg",
+    "b": "320-350 kg",
+    "c": "410-430 kg",
+    "d": "480-500 kg",
+    "answer": "a",
+    "explanation": "",
+    "source": ""
+  },
+  {
+    "question": "Wie können Sie die Verschwendung von Lebensmitteln NICHT vermeiden?",
+    "a": "Beim Einkaufen auf richtige Menge und Haltbarkeit achten.",
+    "b": "Kauf von „hässlichem” Obst und Gemüse. Es schmeckt genauso gut.",
+    "c": "Level 5 Veganer: Essen Sie nichts, was einen Schatten wirft.",
+    "d": "Genießbarkeit nach Ablauf der Mindesthaltbarkeit prüfen.",
+    "answer": "c",
+    "explanation": "",
+    "source": ""
+  }
+]

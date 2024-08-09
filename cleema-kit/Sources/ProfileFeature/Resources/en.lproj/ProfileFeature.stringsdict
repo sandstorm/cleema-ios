@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>account.following.label</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@followingsCount@</string>
+		<key>followingsCount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>No one following</string>
+			<key>one</key>
+			<string>1 Following</string>
+			<key>other</key>
+			<string>%d Followings</string>
+		</dict>
+	</dict>
+	<key>account.followers.label</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@followerCount@</string>
+		<key>followerCount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>No Followers</string>
+			<key>one</key>
+			<string>1 Follower</string>
+			<key>other</key>
+			<string>%d Followers</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

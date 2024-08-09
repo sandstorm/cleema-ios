@@ -1,0 +1,25 @@
+"accountType.label" = "Art";
+
+"accountType.local" = "Ohne Registrierung";
+
+"accountType.server" = "Mit Registrierung";
+
+"welcome.title" = "Herzlich Willkommen";
+
+"welcome.hint.create-user" = "Starte deine Klimawende.";
+
+"accountType.description" = "Lass uns gemeinsam nachhaltig aktiv sein, anpacken und vor Ort zum Klimaschutz beitragen.";
+
+"button.save" = "Jetzt starten";
+
+"error.user.saving" = "Fehler beim Speichern";
+
+"existingAccount.button" = "Ich habe bereits einen Account";
+
+"accountType.local.hint" = "Deine Daten sind nur auf deinem Gerät gespeichert. Sie werden gelöscht, sobald du dich abmeldest.";
+
+"accountType.server.hint" = "Deine Daten werden auf unserem Server gesichert. So kannst du erweiterte Funktionalitäten nutzen und dich ohne Datenverlust ab- und anmelden.";
+
+"account.confirmation.text" = "Wir haben eine E-Mail an **%@** gesendet.\n\nBitte tippe auf den Link in dieser E-Mail, um mit cleema zu starten.";
+
+"account.confirmation.resetButton" = "Zurück zur Anmeldung";

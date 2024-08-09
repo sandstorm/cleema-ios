@@ -1,0 +1,17 @@
+"content.empty.label" = "Keine Daten verfügbar";
+
+"content.error.label" = "Daten konnten nicht geladen werden";
+
+"followers.title" = "Dir folgen";
+
+"followings.title" = "Du folgst";
+
+"alert.remove-follower.with-username" = "%@ entfernen?";
+
+"alert.remove-following.with-username" = "%@ nicht mehr folgen?";
+
+"alert.button.cancel" = "Abbrechen";
+
+"alert.button.remove-follower" = "Entfernen";
+
+"alert.button.remove-following" = "Nicht mehr folgen";

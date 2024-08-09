@@ -1,0 +1,25 @@
+"accountType.label" = "Type";
+
+"accountType.local" = "Without Sign-Up";
+
+"accountType.server" = "Sign-Up";
+
+"welcome.title" = "A very warm welcome";
+
+"welcome.hint.create-user" = "Start your climate change.";
+
+"accountType.description" = "Let's be sustainably active together, tackle and contribute to climate protection locally.";
+
+"button.save" = "Start now";
+
+"error.user.saving" = "Error saving user";
+
+"existingAccount.button" = "I already have an account";
+
+"accountType.local.hint" = "Your data is stored only on your device. They will be deleted as soon as you log out.";
+
+"accountType.server.hint" = "Your data is backed up on our server. So you can use advanced functionalities and log out and log in without data loss.";
+
+"account.confirmation.text" = "We have sent an email to **%@**.\n\nPlease tap on the link in this email to get started with cleema.";
+
+"account.confirmation.resetButton" = "Back to Registration";

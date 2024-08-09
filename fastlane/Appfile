@@ -1,0 +1,8 @@
+app_identifier("de.cleema.Cleema") # The bundle identifier of your app
+apple_id("mac-ci-server@sandstorm.de") # Your Apple Developer Portal username
+
+itc_team_id("415449") # App Store Connect Team ID
+team_id("7DB5AJ9N7H") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

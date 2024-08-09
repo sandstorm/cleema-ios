@@ -1,0 +1,41 @@
+/*
+  Localizable.strings
+*/
+
+"form.state.pending.summary" = "And %@?";
+
+"pendingThisWeek" = "And this week?";
+
+"pendingLastWeek" = "And last week?";
+
+"form.state.answered.summary" = "Great, come back tomorrow.";
+
+"form.state.expired.summary" = "Challenge is expired.";
+
+"alert.leave.title.label" = "Leave \"%@\"";
+
+"alert.leave.action.cancel.label" = "Cancel";
+
+"alert.leave.action.leave.label" = "Leave";
+
+"challenge" = "Challenge";
+
+"finished" = "finished";
+
+"start" = "Start";
+
+"end" = "End";
+
+"action.leave.label" = "Leave Challenge";
+
+"progress.numberOfUnitsDone.count" = "%d";
+
+"progress.numberOfUnitsDone.label" = "%@ of";
+
+"progress.duration.count" = "%d";
+
+"progress.duration.label" = "done";
+
+"progress.bar.label.collective" = "Collective Progress";
+
+"progress.bar.label.personal" = "Personal Contribution";

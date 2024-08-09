@@ -1,0 +1,33 @@
+"involvement.action.join.label" = "Mitmachen";
+
+"involvement.action.leave.label" = "Verlassen";
+
+"involvement.summary" = "%d Leute machen mit";
+
+"involvement.summary.joined" = "%d Leute und du machen mit";
+
+"involvement.summary.hasTotal" = "%d von %d Leuten machen mit";
+
+"involvement.summary.hasTotal.joined" = "%d und du von %d Leuten machen mit";
+
+"alert.leave.title" = "Verlasse %@";
+
+"alert.leave.button.cancel.label" = "Abbrechen";
+
+"alert.leave.button.leave.label" = "Verlassen";
+
+"project.detail.partner.link.label" = "Partner";
+
+"project.detail.phase.label" = "Status";
+
+"project.detail.phase.pre" = "Startet am %@";
+
+"project.detail.phase.pre-information" = "Findet regelmäßig statt";
+
+"project.detail.phase.active" = "Aktiv";
+
+"project.detail.phase.finished" = "Beendet";
+
+"project.detail.phase.cancelled" = "Abgebrochen";
+
+"involvement.action.disabled" = "Ziel erreicht";

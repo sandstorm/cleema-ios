@@ -1,0 +1,271 @@
+{
+  "configurations" : [
+    {
+      "id" : "77D57D56-E432-4812-88BB-52FCD1DCC4BA",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "-isTesting YES"
+      }
+    ],
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "APIClientTests",
+        "name" : "APIClientTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "AppFeatureTests",
+        "name" : "AppFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "AuthenticateUserFeatureTests",
+        "name" : "AuthenticateUserFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "ChallengeTemplateFeatureTests",
+        "name" : "ChallengeTemplateFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "ChallengesFeatureTests",
+        "name" : "ChallengesFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "ComponentsTests",
+        "name" : "ComponentsTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "DashboardFeatureTests",
+        "name" : "DashboardFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "DeepLinkingTests",
+        "name" : "DeepLinkingTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "EditChallengeFeatureTests",
+        "name" : "EditChallengeFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "InviteUsersToChallengeFeatureTests",
+        "name" : "InviteUsersToChallengeFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "LoginFeatureTests",
+        "name" : "LoginFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "MarketplaceFeatureTests",
+        "name" : "MarketplaceFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "ModelsTests",
+        "name" : "ModelsTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "NewUserFeatureTests",
+        "name" : "NewUserFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "NewsFeatureTests",
+        "name" : "NewsFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "OfferRedemptionFeatureTests",
+        "name" : "OfferRedemptionFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "PartnerChallengesFeatureTests",
+        "name" : "PartnerChallengesFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "ProfileFeatureTests",
+        "name" : "ProfileFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "ProjectDetailFeatureTests",
+        "name" : "ProjectDetailFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "ProjectFundingFeatureTests",
+        "name" : "ProjectFundingFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "ProjectsFeatureTests",
+        "name" : "ProjectsFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "QuizFeatureTests",
+        "name" : "QuizFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "SelectRegionFeatureTests",
+        "name" : "SelectRegionFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "UserChallengeFeatureTests",
+        "name" : "UserChallengeFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "UserFavoritesFeatureTests",
+        "name" : "UserFavoritesFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "MainFeatureTests",
+        "name" : "MainFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "TrophiesFeatureTests",
+        "name" : "TrophiesFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "ProfileEditFeatureTests",
+        "name" : "ProfileEditFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "UserListFeatureTests",
+        "name" : "UserListFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "SelectAvatarFeatureTests",
+        "name" : "SelectAvatarFeatureTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:cleema-kit",
+        "identifier" : "SurveysFeatureTests",
+        "name" : "SurveysFeatureTests"
+      }
+    }
+  ],
+  "version" : 1
+}

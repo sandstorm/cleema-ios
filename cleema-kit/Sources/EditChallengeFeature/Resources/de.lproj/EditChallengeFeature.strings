@@ -1,0 +1,51 @@
+"form.section.title.label" = "Titel";
+
+"form.section.title.textfield.title.label" = "Titel";
+
+"form.section.description.label" = "Beschreibung";
+
+"form.section.teaser.label" = "Kurzbeschreibung";
+
+"form.section.goal.label" = "Ziel";
+
+"form.section.goal.picker.goal-type.label" = "Zielart";
+
+"form.section.goal.picker.goal-type.progress.label" = "Fortschritt";
+
+"form.section.goal.picker.goal-type.progress.stepper.times" = "%d mal";
+
+"form.section.goal.picker.goal-type.measurement.label" = "Messung";
+
+"form.section.goal.picker.goal-type.measurement.unit" = "Einheit";
+
+"form.section.details.label" = "Details";
+
+"form.section.details.picker.interval.label" = "Erfassung erfolgt";
+
+"form.section.details.picker.start.label" = "Beginnt am";
+
+"form.section.details.picker.end.label" = "Läuft bis";
+
+"form.section.details.toggle.is-public.label" = "Mit Freunden teilen";
+
+"title" = "Erstelle deine Challenge";
+
+"button.next" = "Weiter";
+
+"button.save" = "Speichern";
+
+"button.cancel" = "Abbrechen";
+
+"form.section.details.is-public.hint" = "Ich willige ein, dass mein Nickname sowie mein Challenge-Fortschritt anderen Nutzer:innen der App, die ich zur Challenge eingeladen habe, angezeigt werden.";
+
+"form.section.details.invite-friends.hint" = "Erstelle einen Cleema Account, um Freunde zu deiner Challenge einzuladen!";
+
+"form.section.details.picker.interval.daily" = "Täglich";
+
+"form.section.details.picker.interval.weekly" = "Wöchentlich";
+
+"button.keyboard.done" = "Fertig";
+
+"edit.hint" = "Du kannst diese Vorlage individuell anpassen. ";
+
+"edit.hint.saving" = "Diese Challenge kann derzeit nach dem Speichern nicht mehr bearbeitet warten, also lies sie nochmal gut durch!";

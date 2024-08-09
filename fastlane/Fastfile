@@ -1,0 +1,101 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+
+before_all do
+  update_fastlane
+end
+
+default_platform(:ios)
+
+# Central Configuration
+appIdentifier = "de.cleema.Cleema"
+xcodeProjectNameWithoutPostfix = "Cleema"
+
+
+platform :ios do
+  error do |lane, exception|
+    slack(message: "Something went wrong with the iOS build",
+    channel: "#project-cleema-monitoring",
+    success: false,
+    payload: { "Error Info" => exception.error_info.to_s }
+  )
+  end
+
+  lane :beta do
+    # trigger "build()" lane below
+    build()
+
+    upload_to_testflight(
+        skip_waiting_for_build_processing: true # that takes ages, so we submit to app store and are finished.
+    )
+
+    slack(
+        message: "Cleema BETA-iOS - pushed to Testflight",
+        channel: "#project-cleema-monitoring",
+        success: true
+    )
+  end
+
+  lane :sync_code_signing_manually do
+    # install certificates and profile via match (from a custom Git repository, see Matchfile.)
+    sync_code_signing(type: "appstore", app_identifier: appIdentifier, readonly: is_ci)
+  end
+
+  # common steps for beta and release lanes
+  private_lane :build do |options|
+    # Prerequisites: see README - Initial Gitlab CI / App Store Connect Setup
+    if ENV["APPSTORECONNECT_API_KEY_ID"] then
+        app_store_connect_api_key(
+            key_id: ENV["APPSTORECONNECT_API_KEY_ID"],
+            issuer_id: ENV["APPSTORECONNECT_API_ISSUER_ID"],
+            key_filepath: ENV["APPSTORECONNECT_API_KEY_PATH"],
+            in_house: false # optional but may be required if using match/sigh
+        )
+    else
+        UI.user_error!("APPSTORECONNECT_API_KEY_ID is not set")
+    end
+
+    # here we override the build number from the pubspec.yaml and keep the version
+    increment_build_number(
+        xcodeproj: "#{xcodeProjectNameWithoutPostfix}.xcodeproj",
+        build_number: ENV["CI_PIPELINE_ID"] || -1
+    )
+
+    # ensure we use the proper app identifier for building.
+    update_app_identifier(
+        xcodeproj: "#{xcodeProjectNameWithoutPostfix}.xcodeproj",
+        plist_path: "#{xcodeProjectNameWithoutPostfix}/Resources/Info.plist",
+        app_identifier: appIdentifier
+    )
+
+    # install certificates and profile via match (from a custom Git repository, see Matchfile.)
+    sync_code_signing(type: "appstore", app_identifier: appIdentifier, readonly: is_ci)
+
+    # update provisioning profile in xcode
+    update_project_provisioning(
+        xcodeproj: "#{xcodeProjectNameWithoutPostfix}.xcodeproj",
+        build_configuration: "Release",
+        profile: ENV["sigh_#{appIdentifier}_appstore_profile-path"]
+    )
+
+    # build app
+    build_app(
+        scheme: "#{xcodeProjectNameWithoutPostfix}-Production",
+        silent: true,
+        suppress_xcode_output: true
+    )
+  end
+
+  desc "Push a new build to TestFlight"
+end

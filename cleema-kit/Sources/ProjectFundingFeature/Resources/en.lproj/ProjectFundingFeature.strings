@@ -1,0 +1,15 @@
+"funding.picker.amount.label" = "Please choose an amount";
+
+"funding.picker.amount.value.custom.label" = "Other ...";
+
+"funding.textfield.amount.custom.label" = "Custom amount";
+
+"funding.button.action.label" = "Support";
+
+"funding.summary" = "You gave %@. Thanks. You rock!";
+
+"funding.button.again-action.label" = "Donate again...";
+
+"funding.goal.summary" = "This project needs a total amount of %@ to become real. Currently there are already %@ collected by the community. You can help to make it happen!";
+
+"funding.goal.reached" = "Hurray, this project reached its funding goal of %@!";

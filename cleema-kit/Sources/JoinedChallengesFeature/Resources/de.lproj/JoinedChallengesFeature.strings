@@ -1,0 +1,5 @@
+"title" = "Deine Challenges";
+
+"progress" = "%d %@ von %d von \"%@\" geschafft.";
+
+"placeholder.empty-challenges" = "Leg deine erste Challenge an";

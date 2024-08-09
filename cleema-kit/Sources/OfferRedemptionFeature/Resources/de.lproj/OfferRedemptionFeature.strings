@@ -1,0 +1,21 @@
+"offer.added-on" = "Hinzugefügt am %@";
+
+"redemption-state.section-title.ready.label" = "Bereit zur Zahlung";
+
+"redemption.info" = "nur einmal verwendbar";
+
+"button.request.label" = "Voucher anfordern";
+
+"button.redeem-now.label" = "Einlösen";
+
+"voucher.displayText" = "Dein Gutschein lautet";
+
+"offer.discount.label" = "Rabatt";
+
+"offer.offerType.shop.title" = "Im Geschäft einlösbar";
+
+"offer.offerType.online.title" = "Online einlösbar";
+
+"offer.voucher-card.headline" = "Spare jetzt";
+
+"offer.voucher-card.label" = "Gutscheincode";

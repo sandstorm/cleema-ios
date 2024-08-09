@@ -1,0 +1,17 @@
+"form.textfield.name.label" = "Your name";
+
+"form.textfield.email.label" = "Your e-mail";
+
+"form.textfield.password.label" = "New password";
+
+"form.textfield.password-confirm.label" = "Confirm new password";
+
+"form.textfield.old-password.label" = "Your previous password";
+
+"form.toggle.allow-surveys.label" = "I want to take part in surveys";
+
+"form.action.submit.label" = "Save";
+
+"form.action.cancel.label" = "Cancel";
+
+"form.old-password.headline" = "Enter old password for confirmation";

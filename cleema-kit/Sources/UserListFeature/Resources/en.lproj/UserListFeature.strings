@@ -1,0 +1,17 @@
+"content.empty.label" = "No data available";
+
+"content.error.label" = "Could not load data";
+
+"followers.title" = "Followers";
+
+"followings.title" = "Followings";
+
+"alert.remove-follower.with-username" = "Remove %@ as follower?";
+
+"alert.remove-following.with-username" = "Stop following %@?";
+
+"alert.button.cancel" = "Cancel";
+
+"alert.button.remove-follower" = "Remove";
+
+"alert.button.remove-following" = "Stop";

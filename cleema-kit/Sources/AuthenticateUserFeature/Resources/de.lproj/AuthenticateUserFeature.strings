@@ -1,0 +1,11 @@
+"button.login.title" = "Anmeldung";
+
+"login.progress.title" = "Melde %@ an ...";
+
+"login.authentication.status.loading.hint" = "Lade ...";
+
+"form.credentials.username.label" = "Nutzername";
+
+"form.credentials.password.label" = "Passwort";
+
+"login.hint" = "Willkommen zurück. Bitte gib deinen Benutzername und dein Passwort ein um dich anzumelden.";

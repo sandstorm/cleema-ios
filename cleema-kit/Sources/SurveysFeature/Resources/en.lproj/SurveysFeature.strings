@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Rico Becker on 26.10.22.
+  
+*/
+
+"card-title.state.participation" = "New Survey";
+
+"card-title.state.evaluation" = "Survey Evaluation available";
+
+"card.action.participation" = "Take Survey";
+
+"card.action.evaluation" = "See Evaluation";

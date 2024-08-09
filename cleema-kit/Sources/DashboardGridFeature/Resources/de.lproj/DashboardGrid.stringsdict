@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>invite.follower-count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@followerCount@</string>
+		<key>followerCount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Gemeinsam macht cleema mehr Spaß.</string>
+			<key>one</key>
+			<string>Du hast schon einen Freund. Lade noch mehr ein!</string>
+			<key>other</key>
+			<string>Du hast schon %d Freunde. Lade noch mehr ein!</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

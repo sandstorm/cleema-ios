@@ -1,0 +1,26 @@
+"form.error.name-empty" = "Name darf nicht leer sein";
+
+"form.error.email-invalid" = "Keine gültige Email-Adresse";
+
+"form.error.password-too-short" = "Das Passwort muss mindestens 10 Zeichen lang sein";
+
+"form.error.passwords-do-not-match" = "Passwörter stimmen nicht überein";
+
+"form.error.old-password-not-matching" = "Bisheriges Passwort ist falsch";
+
+"form.error.no-region-selected" = "Eine Region muss ausgewählt sein";
+
+"form.password.hint" = "Dein Passwort sollte aus mindestens 12 Zeichen bestehen. Es sollte Klein- und Großbuchstaben, Ziffern sowie Sonderzeichen enthalten.";
+
+"progress.numberOfUnitsDone.count" = "%d";
+
+"progress.numberOfUnitsDone.label" = "%@ von";
+
+"progress.duration.count" = "%d";
+
+"progress.duration.label" = "geschafft";
+
+"progress.bar.label.collective" = "Gemeinsamer Fortschritt";
+
+"progress.bar.label.personal" = "Eigener Beitrag";
+

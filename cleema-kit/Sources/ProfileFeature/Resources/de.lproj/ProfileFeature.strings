@@ -1,0 +1,37 @@
+"account.alert.remove.title" = "Account löschen";
+
+"account.alert.remove.button.cancel.label" = "Abbrechen";
+
+"account.alert.remove.button.remove.label" = "Löschen";
+
+"accountType.local" = "Lokaler Account";
+
+"accountType.server" = "cleema Account\n%@";
+
+"account.activeSince.label" = "Aktiv seit %@";
+
+"button.invite.label" = "Einladen";
+
+"button.edit-profile.label" = "Profil bearbeiten";
+
+"section.trophy-case.label" = "Auszeichnungen";
+
+"button.remove-account.label" = "Account löschen";
+
+"button.logout.label" = "Abmelden";
+
+"title" = "Dein Profil";
+
+"action.done.label" = "Fertig";
+
+"button.convert-account.label" = "Bei cleema anmelden";
+
+"action.convert-account.label" = "Anmelden";
+
+"action.cancel-convert-account.label" = "Abbrechen";
+
+"account.info.local_user" = "Deine Daten sind nur auf deinem Gerät gespeichert. Sie werden gelöscht, sobald du dich abmeldest.";
+
+"account.info.remote_user" = "Deine Daten werden auf unserem Server gesichert. So kannst du erweiterte Funktionalitäten nutzen und dich ohne Datenverlust ab- und anmelden.";
+
+"convert-account.info" = "Melde dich bei cleema an! Deine Daten werden auf unserem Server gesichert. So kannst du erweiterte Funktionalitäten nutzen und dich ohne Datenverlust ab- und anmelden.";
